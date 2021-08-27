@@ -1,0 +1,34 @@
+name: Check dist
+
+on: [push, pull_request]
+
+jobs:
+  check-dist:
+    name: Check dist
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: doubletrouble
+      - uses: actions/checkout@v2
+        with:
+          repository: rktjmp/lush.nvim
+          path: lush.nvim
+      - name: Setup
+        run: |
+          sudo apt-get update
+          sudo add-apt-repository ppa:neovim-ppa/unstable
+          sudo apt-get install neovim
+      - name: Build dist
+        run: |
+          cd doubletrouble
+          make build
+      - name: Check for changes
+        run: |
+          cd doubletrouble
+          status=$(git status --porcelain)
+          if [ -n "$status" ];
+          then
+            echo $status
+            exit 1
+          fi
