@@ -77,9 +77,28 @@ color15 $white
   write_file("dist/kitty/doubletrouble.conf", render(template, colors))
 end
 
+function M.fish()
+  local template = [[
+set fish_color_command $green
+set fish_color_error $red
+set fish_color_normal $fg
+set fish_color_operator $white
+set fish_color_param normal
+set fish_color_quote $cyan
+set fish_color_search_match --background=$bg_yellow
+set fish_color_valid_path normal --underline
+]]
+
+  write_file(
+    "dist/fish/doubletrouble.fish",
+    string.gsub(render(template, colors), "#", "")
+  )
+end
+
 function M.all()
   M.vim()
   M.kitty()
+  M.fish()
 end
 
 return M
