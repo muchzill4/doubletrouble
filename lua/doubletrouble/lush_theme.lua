@@ -40,7 +40,7 @@ local theme = lush(function()
     IncSearch({ fg = c.bg, bg = c.yellow }), -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
     LineNr({ EndOfBuffer }), -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     CursorLineNr({ fg = c.green }), -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-    MatchParen({ fg = c.bg, bg = c.white }), -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
+    MatchParen({ fg = c.green, bg = c.black, gui = "bold" }), -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg({ fg = c.bg, bg = c.purple }), -- 'showmode' message (e.g., "-- INSERT -- ")
     -- MsgArea      { }, -- Area for messages and cmdline
     -- MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'

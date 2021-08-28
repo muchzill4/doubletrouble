@@ -29,7 +29,7 @@ highlight LspDiagnosticsUnderlineError guifg=NONE guibg=NONE guisp=NONE gui=unde
 highlight LspDiagnosticsUnderlineHint guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight LspDiagnosticsUnderlineInformation guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight LspDiagnosticsUnderlineWarning guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
-highlight MatchParen guifg=#1D1D30 guibg=#9FA3C6 guisp=NONE gui=NONE blend=NONE
+highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE gui=bold blend=NONE
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE gui=NONE blend=NONE
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Normal guifg=#BFC1D9 guibg=#1D1D30 guisp=NONE gui=NONE blend=NONE
