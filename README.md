@@ -1,4 +1,4 @@
-# doubletrouble neovim colorscheme
+# doubletrouble vim colorscheme
 
 ![doubletrouble](../assets/nvim.png)
 
