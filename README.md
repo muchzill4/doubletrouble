@@ -1,5 +1,7 @@
 # doubletrouble neovim colorscheme
 
+![doubletrouble](../assets/nvim.png)
+
 ## install
 
 ```text
