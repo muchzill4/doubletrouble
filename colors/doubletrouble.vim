@@ -10,7 +10,7 @@ highlight Comment guifg=#6CA9EF guibg=NONE guisp=NONE gui=italic blend=NONE
 highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Constant guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight DiffAdd guifg=#7FC79B guibg=#142E1E guisp=NONE gui=NONE blend=NONE
+highlight DiffAdd guifg=#7FC79B guibg=#102317 guisp=NONE gui=NONE blend=NONE
 highlight DiffChange guifg=#E6A64C guibg=#50340B guisp=NONE gui=NONE blend=NONE
 highlight DiffDelete guifg=#E25A6A guibg=#450C13 guisp=NONE gui=NONE blend=NONE
 highlight DiffText guifg=#6CA9EF guibg=#09294E guisp=NONE gui=NONE blend=NONE
