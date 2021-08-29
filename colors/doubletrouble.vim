@@ -46,6 +46,8 @@ highlight SpellLocal guifg=#E6A64C guibg=NONE guisp=NONE gui=undercurl blend=NON
 highlight SpellRare guifg=#D1AF9F guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight Statement guifg=#9FA3C6 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight TSConstBuiltin guifg=#7FC79B guibg=NONE guisp=NONE gui=italic blend=NONE
+highlight TSFuncBuiltin guifg=#E6A64C guibg=NONE guisp=NONE gui=italic blend=NONE
 highlight TabLineFill guifg=NONE guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Title guifg=NONE guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE gui=bold blend=NONE
@@ -67,9 +69,7 @@ highlight! link PmenuThumb PmenuSel
 highlight! link Question MoreMsg
 highlight! link StatusLine PmenuSel
 highlight! link StatusLineNC Pmenu
-highlight! link TSConstBuiltin Constant
 highlight! link TSConstMacro Constant
-highlight! link TSFuncBuiltin Function
 highlight! link TSFuncMacro Function
 highlight! link TabLine StatusLineNC
 highlight! link TabLineSel StatusLine

@@ -173,14 +173,14 @@ local theme = lush(function()
     -- TSConstructor        { };    -- For constructor calls and definitions: ` { }` in Lua, and Java constructors.
     -- TSConditional        { };    -- For keywords related to conditionnals.
     -- TSConstant           { };    -- For constants
-    TSConstBuiltin { Constant }, -- For constant that are built in the language: `nil` in Lua.
+    TSConstBuiltin { Constant, gui = "italic" }, -- For constant that are built in the language: `nil` in Lua.
     TSConstMacro { Constant }, -- For constants that are defined by macros: `NULL` in C.
     -- TSError              { };    -- For syntax/parser errors.
     -- TSException          { };    -- For exception related keywords.
     -- TSField              { };    -- For fields.
     -- TSFloat              { };    -- For floats.
     -- TSFunction           { };    -- For function (calls and definitions).
-    TSFuncBuiltin { Function }, -- For builtin functions: `table.insert` in Lua.
+    TSFuncBuiltin { Function, gui = "italic" }, -- For builtin functions: `table.insert` in Lua.
     TSFuncMacro { Function }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude            { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
     -- TSKeyword            { };    -- For keywords that don't fall in previous categories.
