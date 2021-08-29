@@ -1,4 +1,4 @@
-local lush = require("lush")
+local lush = require "lush"
 local hsl = lush.hsl
 
 local c = {

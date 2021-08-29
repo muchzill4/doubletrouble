@@ -1,5 +1,5 @@
-local lush = require("lush")
-local colors = require("doubletrouble.colors")
+local lush = require "lush"
+local colors = require "doubletrouble.colors"
 
 local function write_file(path, text)
   local file = io.open(path, "w+")
@@ -25,7 +25,7 @@ let g:colors_name="doubletrouble"
 set background=dark
 ]]
 
-  local theme = lush.compile(require("doubletrouble.lush_theme"))
+  local theme = lush.compile(require "doubletrouble.lush_theme")
   table.sort(theme)
   local vim_highlights = table.concat(theme, "\n")
 

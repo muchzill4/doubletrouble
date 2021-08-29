@@ -1,5 +1,5 @@
-local lush = require("lush")
-local c = require("doubletrouble.colors")
+local lush = require "lush"
+local c = require "doubletrouble.colors"
 
 -- LSP/Linters mistakenly show `undefined global` errors in the spec, they may
 -- support an annotation like the following. Consult your server documentation.
@@ -18,60 +18,60 @@ local theme = lush(function()
     -- styling for that group (meaning they mostly get styled as Normal)
     -- or leave them commented to apply vims default colouring or linking.
 
-    Comment({ fg = c.blue, gui = "italic" }), -- any comment
-    ColorColumn({ bg = c.bg_black.da(15) }), -- used for the columns set with 'colorcolumn'
-    Conceal({ fg = c.black }), -- placeholder characters substituted for concealed text (see 'conceallevel')
-    CursorColumn({ ColorColumn }), -- Screen-column at the cursor, when 'cursorcolumn' is set.
-    CursorLine({ ColorColumn }), -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
-    Directory({ fg = c.blue }), -- directory names (and other special names in listings)
-    DiffAdd({ fg = c.green, bg = c.bg_green }), -- diff mode: Added line |diff.txt|
-    DiffChange({ fg = c.yellow, bg = c.bg_yellow }), -- diff mode: Changed line |diff.txt|
-    DiffDelete({ fg = c.red, bg = c.bg_red }), -- diff mode: Deleted line |diff.txt|
-    DiffText({ fg = c.blue, bg = c.bg_blue }), -- diff mode: Changed text within a changed line |diff.txt|
-    diffAdded({ DiffAdd }),
-    diffChanged({ DiffChange }),
-    diffRemoved({ DiffDelete }),
-    EndOfBuffer({ fg = c.black }), -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
-    ErrorMsg({ fg = c.bg, bg = c.red }), -- error messages on the command line
-    VertSplit({ fg = c.bg_white }), -- the column separating vertically split windows
-    Folded({ EndOfBuffer }), -- line used for closed folds
-    FoldColumn({ EndOfBuffer }), -- 'foldcolumn'
-    SignColumn({}), -- column where |signs| are displayed
-    IncSearch({ fg = c.bg, bg = c.yellow }), -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
-    LineNr({ EndOfBuffer }), -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
-    CursorLineNr({ fg = c.green }), -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-    MatchParen({ fg = c.green, bg = c.black, gui = "bold" }), -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
-    ModeMsg({ fg = c.bg, bg = c.purple }), -- 'showmode' message (e.g., "-- INSERT -- ")
+    Comment { fg = c.blue, gui = "italic" }, -- any comment
+    ColorColumn { bg = c.bg_black.da(15) }, -- used for the columns set with 'colorcolumn'
+    Conceal { fg = c.black }, -- placeholder characters substituted for concealed text (see 'conceallevel')
+    CursorColumn { ColorColumn }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
+    CursorLine { ColorColumn }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
+    Directory { fg = c.blue }, -- directory names (and other special names in listings)
+    DiffAdd { fg = c.green, bg = c.bg_green }, -- diff mode: Added line |diff.txt|
+    DiffChange { fg = c.yellow, bg = c.bg_yellow }, -- diff mode: Changed line |diff.txt|
+    DiffDelete { fg = c.red, bg = c.bg_red }, -- diff mode: Deleted line |diff.txt|
+    DiffText { fg = c.blue, bg = c.bg_blue }, -- diff mode: Changed text within a changed line |diff.txt|
+    diffAdded { DiffAdd },
+    diffChanged { DiffChange },
+    diffRemoved { DiffDelete },
+    EndOfBuffer { fg = c.black }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
+    ErrorMsg { fg = c.bg, bg = c.red }, -- error messages on the command line
+    VertSplit { fg = c.bg_white }, -- the column separating vertically split windows
+    Folded { EndOfBuffer }, -- line used for closed folds
+    FoldColumn { EndOfBuffer }, -- 'foldcolumn'
+    SignColumn {}, -- column where |signs| are displayed
+    IncSearch { fg = c.bg, bg = c.yellow }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+    LineNr { EndOfBuffer }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+    CursorLineNr { fg = c.green }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+    MatchParen { fg = c.green, bg = c.black, gui = "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
+    ModeMsg { fg = c.bg, bg = c.purple }, -- 'showmode' message (e.g., "-- INSERT -- ")
     -- MsgArea      { }, -- Area for messages and cmdline
     -- MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
-    MoreMsg({ fg = c.green }), -- |more-prompt|
-    NonText({ EndOfBuffer }), -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
-    Normal({ bg = c.bg, fg = c.fg }), -- normal text
-    NormalFloat({ bg = c.bg_black }), -- Normal text in floating windows.
+    MoreMsg { fg = c.green }, -- |more-prompt|
+    NonText { EndOfBuffer }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
+    Normal { bg = c.bg, fg = c.fg }, -- normal text
+    NormalFloat { bg = c.bg_black }, -- Normal text in floating windows.
     -- NormalNC     { }, -- normal text in non-current windows
-    Pmenu({ NormalFloat }), -- Popup menu: normal item.
-    PmenuSel({ bg = c.bg_white }), -- Popup menu: selected item.
-    PmenuSbar({}), -- Popup menu: scrollbar.
-    PmenuThumb({ PmenuSel }), -- Popup menu: Thumb of the scrollbar.
-    Question({ MoreMsg }), -- |hit-enter| prompt and yes/no questions
+    Pmenu { NormalFloat }, -- Popup menu: normal item.
+    PmenuSel { bg = c.bg_white }, -- Popup menu: selected item.
+    PmenuSbar {}, -- Popup menu: scrollbar.
+    PmenuThumb { PmenuSel }, -- Popup menu: Thumb of the scrollbar.
+    Question { MoreMsg }, -- |hit-enter| prompt and yes/no questions
     -- QuickFixLine { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
-    Search({ bg = c.bg_yellow }), -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand out.
+    Search { bg = c.bg_yellow }, -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand out.
     -- SpecialKey   { }, -- Unprintable characters: text displayed differently from what it really is.  But not 'listchars' whitespace. |hl-Whitespace|
-    SpellBad({ fg = c.red, gui = "undercurl" }), -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
-    SpellCap({ fg = c.blue, gui = "undercurl" }), -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
-    SpellLocal({ fg = c.yellow, gui = "undercurl" }), -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
-    SpellRare({ fg = c.cyan, gui = "undercurl" }), -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
-    StatusLine({ PmenuSel }), -- status line of current window
-    StatusLineNC({ Pmenu }), -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-    TabLine({ StatusLineNC }), -- tab pages line, not active tab page label
-    TabLineFill({}), -- tab pages line, where there are no labels
-    TabLineSel({ StatusLine }), -- tab pages line, active tab page label
-    Title({ gui = "bold" }), -- titles for output from ":set all", ":autocmd" etc.
-    Visual({ bg = c.bg_purple }), -- Visual mode selection
+    SpellBad { fg = c.red, gui = "undercurl" }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
+    SpellCap { fg = c.blue, gui = "undercurl" }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
+    SpellLocal { fg = c.yellow, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
+    SpellRare { fg = c.cyan, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
+    StatusLine { PmenuSel }, -- status line of current window
+    StatusLineNC { Pmenu }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    TabLine { StatusLineNC }, -- tab pages line, not active tab page label
+    TabLineFill {}, -- tab pages line, where there are no labels
+    TabLineSel { StatusLine }, -- tab pages line, active tab page label
+    Title { gui = "bold" }, -- titles for output from ":set all", ":autocmd" etc.
+    Visual { bg = c.bg_purple }, -- Visual mode selection
     -- VisualNOS    { }, -- Visual mode selection when vim is "Not Owning the Selection".
-    WarningMsg({ ErrorMsg }), -- warning messages
+    WarningMsg { ErrorMsg }, -- warning messages
     -- Whitespace   { }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
-    WildMenu({ PmenuSel }), -- current match in 'wildmenu' completion
+    WildMenu { PmenuSel }, -- current match in 'wildmenu' completion
 
     -- These groups are not listed as default vim groups,
     -- but they are defacto standard group names for syntax highlighting.
@@ -79,17 +79,17 @@ local theme = lush(function()
     -- default,
     -- Uncomment and edit if you want more specific syntax highlighting.
 
-    Constant({ fg = c.green }), -- (preferred) any constant
-    String({ fg = c.cyan }), --   a string constant: "this is a string"
-    Character({ String, gui = "italic" }), --  a character constant: 'c', '\n'
+    Constant { fg = c.green }, -- (preferred) any constant
+    String { fg = c.cyan }, --   a string constant: "this is a string"
+    Character { String, gui = "italic" }, --  a character constant: 'c', '\n'
     -- Number         { }, --   a number constant: 234, 0xff
     -- Boolean        { }, --  a boolean constant: TRUE, false
     -- Float          { }, --    a floating point constant: 2.3e10
 
-    Identifier({ fg = c.brown }), -- (preferred) any variable name
-    Function({ fg = c.yellow }), -- function name (also: methods for classes)
+    Identifier { fg = c.brown }, -- (preferred) any variable name
+    Function { fg = c.yellow }, -- function name (also: methods for classes)
 
-    Statement({ fg = c.white }), -- (preferred) any statement
+    Statement { fg = c.white }, -- (preferred) any statement
     -- Conditional    { }, --  if, then, else, endif, switch, etc.
     -- Repeat         { }, --   for, do, while, etc.
     -- Label          { }, --    case, default, etc.
@@ -97,57 +97,57 @@ local theme = lush(function()
     -- Keyword        { }, --  any other keyword
     -- Exception      { }, --  try, catch, throw
 
-    PreProc({ fg = c.white }), -- (preferred) generic Preprocessor
+    PreProc { fg = c.white }, -- (preferred) generic Preprocessor
     -- Include        { }, --  preprocessor #include
     -- Define         { }, --   preprocessor #define
     -- Macro          { }, --    same as Define
     -- PreCondit      { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type({ fg = c.purple }), -- (preferred) int, long, char, etc.
+    Type { fg = c.purple }, -- (preferred) int, long, char, etc.
     -- StorageClass   { }, -- static, register, volatile, etc.
     -- Structure      { }, --  struct, union, enum, etc.
     -- Typedef        { }, --  A typedef
 
-    Special({ fg = c.white }), -- (preferred) any special symbol
+    Special { fg = c.white }, -- (preferred) any special symbol
     -- SpecialChar    { }, --  special character in a constant
     -- Tag            { }, --    you can use CTRL-] on this
     -- Delimiter      { fg = yellow.da(30) }, --  character that needs attention
     -- SpecialComment { }, -- special things inside a comment
     -- Debug          { }, --    debugging statements
 
-    Underlined({ gui = "underline" }), -- (preferred) text that stands out, HTML links
+    Underlined { gui = "underline" }, -- (preferred) text that stands out, HTML links
     -- Bold       { gui = "bold" },
     -- Italic     { gui = "italic" },
 
     -- ("Ignore", below, may be invisible...)
     -- Ignore         { }, -- (preferred) left blank, hidden  |hl-Ignore|
 
-    Error({ bg = c.red }), -- (preferred) any erroneous construct
+    Error { bg = c.red }, -- (preferred) any erroneous construct
 
-    Todo({ Comment, gui = "bold" }), -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
+    Todo { Comment, gui = "bold" }, -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
     -- These groups are for the native LSP client. Some other LSP clients may
     -- use these groups, or use their own. Consult your LSP client's
     -- documentation.
 
-    LspReferenceText({ PmenuSel }), -- used for highlighting "text" references
-    LspReferenceRead({ PmenuSel }), -- used for highlighting "read" references
-    LspReferenceWrite({ PmenuSel }), -- used for highlighting "write" references
+    LspReferenceText { PmenuSel }, -- used for highlighting "text" references
+    LspReferenceRead { PmenuSel }, -- used for highlighting "read" references
+    LspReferenceWrite { PmenuSel }, -- used for highlighting "write" references
 
-    LspDiagnosticsDefaultError({ fg = c.red }), -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
-    LspDiagnosticsDefaultWarning({ fg = c.yellow }), -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
-    LspDiagnosticsDefaultInformation({ fg = c.white }), -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
-    LspDiagnosticsDefaultHint({ fg = c.blue }), -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    LspDiagnosticsDefaultError { fg = c.red }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    LspDiagnosticsDefaultWarning { fg = c.yellow }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    LspDiagnosticsDefaultInformation { fg = c.white }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
+    LspDiagnosticsDefaultHint { fg = c.blue }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
 
     -- LspDiagnosticsVirtualTextError       { }, -- Used for "Error" diagnostic virtual text
     -- LspDiagnosticsVirtualTextWarning     { }, -- Used for "Warning" diagnostic virtual text
     -- LspDiagnosticsVirtualTextInformation { }, -- Used for "Information" diagnostic virtual text
     -- LspDiagnosticsVirtualTextHint        { }, -- Used for "Hint" diagnostic virtual text
 
-    LspDiagnosticsUnderlineError({ gui = "undercurl" }), -- Used to underline "Error" diagnostics
-    LspDiagnosticsUnderlineWarning({ gui = "undercurl" }), -- Used to underline "Warning" diagnostics
-    LspDiagnosticsUnderlineInformation({ gui = "undercurl" }), -- Used to underline "Information" diagnostics
-    LspDiagnosticsUnderlineHint({ gui = "undercurl" }), -- Used to underline "Hint" diagnostics
+    LspDiagnosticsUnderlineError { gui = "undercurl" }, -- Used to underline "Error" diagnostics
+    LspDiagnosticsUnderlineWarning { gui = "undercurl" }, -- Used to underline "Warning" diagnostics
+    LspDiagnosticsUnderlineInformation { gui = "undercurl" }, -- Used to underline "Information" diagnostics
+    LspDiagnosticsUnderlineHint { gui = "undercurl" }, -- Used to underline "Hint" diagnostics
 
     -- LspDiagnosticsFloatingError          { }, -- Used to color "Error" diagnostic messages in diagnostics float
     -- LspDiagnosticsFloatingWarning        { }, -- Used to color "Warning" diagnostic messages in diagnostics float
@@ -173,15 +173,15 @@ local theme = lush(function()
     -- TSConstructor        { };    -- For constructor calls and definitions: ` { }` in Lua, and Java constructors.
     -- TSConditional        { };    -- For keywords related to conditionnals.
     -- TSConstant           { };    -- For constants
-    TSConstBuiltin({ Constant }), -- For constant that are built in the language: `nil` in Lua.
-    TSConstMacro({ Constant }), -- For constants that are defined by macros: `NULL` in C.
+    TSConstBuiltin { Constant }, -- For constant that are built in the language: `nil` in Lua.
+    TSConstMacro { Constant }, -- For constants that are defined by macros: `NULL` in C.
     -- TSError              { };    -- For syntax/parser errors.
     -- TSException          { };    -- For exception related keywords.
     -- TSField              { };    -- For fields.
     -- TSFloat              { };    -- For floats.
     -- TSFunction           { };    -- For function (calls and definitions).
-    TSFuncBuiltin({ Function }), -- For builtin functions: `table.insert` in Lua.
-    TSFuncMacro({ Function }), -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
+    TSFuncBuiltin { Function }, -- For builtin functions: `table.insert` in Lua.
+    TSFuncMacro { Function }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude            { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
     -- TSKeyword            { };    -- For keywords that don't fall in previous categories.
     -- TSKeywordFunction    { };    -- For keywords used to define a fuction.
