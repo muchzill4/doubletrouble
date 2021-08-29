@@ -3,7 +3,7 @@ local hsl = lush.hsl
 
 local c = {
   bg = hsl(240, 25, 15),
-  fg = hsl(235, 25, 80),
+  fg = hsl(235, 30, 85),
   black = hsl(235, 25, 45),
   red = hsl(353, 70, 62),
   green = hsl(143, 39, 64),
@@ -11,7 +11,7 @@ local c = {
   blue = hsl(212, 80, 68),
   purple = hsl(299, 49, 77),
   cyan = hsl(20, 35, 72),
-  white = hsl(235, 25, 70),
+  white = hsl(235, 30, 75),
 }
 
 c.brown = c.yellow.da(30)

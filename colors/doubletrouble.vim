@@ -23,7 +23,7 @@ highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE gui=NONE blend=NONE
 highlight LspDiagnosticsDefaultError guifg=#E25A6A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight LspDiagnosticsDefaultHint guifg=#6CA9EF guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight LspDiagnosticsDefaultInformation guifg=#9FA3C6 guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight LspDiagnosticsDefaultInformation guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight LspDiagnosticsDefaultWarning guifg=#E6A64C guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight LspDiagnosticsUnderlineError guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight LspDiagnosticsUnderlineHint guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
@@ -32,19 +32,19 @@ highlight LspDiagnosticsUnderlineWarning guifg=NONE guibg=NONE guisp=NONE gui=un
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE gui=bold blend=NONE
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE gui=NONE blend=NONE
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight Normal guifg=#BFC1D9 guibg=#1D1D30 guisp=NONE gui=NONE blend=NONE
+highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE gui=NONE blend=NONE
 highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE gui=NONE blend=NONE
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight PmenuSel guifg=NONE guibg=#363959 guisp=NONE gui=NONE blend=NONE
-highlight PreProc guifg=#9FA3C6 guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight PmenuSel guifg=NONE guibg=#363963 guisp=NONE gui=NONE blend=NONE
+highlight PreProc guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Search guifg=NONE guibg=#50340B guisp=NONE gui=NONE blend=NONE
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight Special guifg=#9FA3C6 guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight Special guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight SpellBad guifg=#E25A6A guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight SpellCap guifg=#6CA9EF guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight SpellLocal guifg=#E6A64C guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight SpellRare guifg=#D1AF9F guibg=NONE guisp=NONE gui=undercurl blend=NONE
-highlight Statement guifg=#9FA3C6 guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight Statement guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight TSConstBuiltin guifg=#7FC79B guibg=NONE guisp=NONE gui=italic blend=NONE
 highlight TSFuncBuiltin guifg=#E6A64C guibg=NONE guisp=NONE gui=italic blend=NONE
@@ -53,7 +53,7 @@ highlight Title guifg=NONE guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline blend=NONE
-highlight VertSplit guifg=#363959 guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight VertSplit guifg=#363963 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE gui=NONE blend=NONE
 highlight! link CursorColumn ColorColumn
 highlight! link CursorLine ColorColumn
