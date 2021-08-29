@@ -67,6 +67,10 @@ highlight! link PmenuThumb PmenuSel
 highlight! link Question MoreMsg
 highlight! link StatusLine PmenuSel
 highlight! link StatusLineNC Pmenu
+highlight! link TSConstBuiltin Constant
+highlight! link TSConstMacro Constant
+highlight! link TSFuncBuiltin Function
+highlight! link TSFuncMacro Function
 highlight! link TabLine StatusLineNC
 highlight! link TabLineSel StatusLine
 highlight! link WarningMsg ErrorMsg
