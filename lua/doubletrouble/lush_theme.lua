@@ -27,7 +27,7 @@ local theme = lush(function()
     DiffAdd { fg = c.green, bg = c.bg_green }, -- diff mode: Added line |diff.txt|
     DiffChange { fg = c.yellow, bg = c.bg_yellow }, -- diff mode: Changed line |diff.txt|
     DiffDelete { fg = c.red, bg = c.bg_red }, -- diff mode: Deleted line |diff.txt|
-    DiffText { fg = c.blue, bg = c.bg_blue }, -- diff mode: Changed text within a changed line |diff.txt|
+    DiffText { fg = c.brown, bg = c.bg_yellow }, -- diff mode: Changed text within a changed line |diff.txt|
     diffAdded { DiffAdd },
     diffChanged { DiffChange },
     diffRemoved { DiffDelete },
