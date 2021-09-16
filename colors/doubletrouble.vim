@@ -15,9 +15,10 @@ highlight DiffChange guifg=NONE guibg=#50340B guisp=NONE gui=NONE blend=NONE
 highlight DiffDelete guifg=NONE guibg=#520F16 guisp=NONE gui=NONE blend=NONE
 highlight DiffText guifg=NONE guibg=#312007 guisp=NONE gui=NONE blend=NONE
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight EndOfBuffer guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight EndOfBuffer guifg=#363963 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE gui=NONE blend=NONE
 highlight ErrorMsg guifg=#1D1D30 guibg=#E25A6A guisp=NONE gui=NONE blend=NONE
+highlight Folded guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE gui=NONE blend=NONE
@@ -53,13 +54,11 @@ highlight Title guifg=NONE guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline blend=NONE
-highlight VertSplit guifg=#363963 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE gui=NONE blend=NONE
 highlight! link CursorColumn ColorColumn
 highlight! link CursorLine ColorColumn
-highlight! link FoldColumn EndOfBuffer
-highlight! link Folded EndOfBuffer
-highlight! link LineNr EndOfBuffer
+highlight! link FoldColumn Folded
+highlight! link LineNr Folded
 highlight! link LspReferenceRead PmenuSel
 highlight! link LspReferenceText PmenuSel
 highlight! link LspReferenceWrite PmenuSel
@@ -73,6 +72,7 @@ highlight! link TSConstMacro Constant
 highlight! link TSFuncMacro Function
 highlight! link TabLine StatusLineNC
 highlight! link TabLineSel StatusLine
+highlight! link VertSplit EndOfBuffer
 highlight! link WarningMsg ErrorMsg
 highlight! link WildMenu PmenuSel
 highlight! link diffAdded DiffAdd

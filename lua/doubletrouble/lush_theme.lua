@@ -31,14 +31,14 @@ local theme = lush(function()
     diffAdded { DiffAdd },
     diffChanged { DiffChange },
     diffRemoved { DiffDelete },
-    EndOfBuffer { fg = c.black }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
+    EndOfBuffer { fg = c.bg_white }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     ErrorMsg { fg = c.bg, bg = c.red }, -- error messages on the command line
-    VertSplit { fg = c.bg_white }, -- the column separating vertically split windows
-    Folded { EndOfBuffer }, -- line used for closed folds
-    FoldColumn { EndOfBuffer }, -- 'foldcolumn'
+    VertSplit { EndOfBuffer }, -- the column separating vertically split windows
+    Folded { fg = c.black }, -- line used for closed folds
+    FoldColumn { Folded }, -- 'foldcolumn'
     SignColumn {}, -- column where |signs| are displayed
     IncSearch { fg = c.bg, bg = c.yellow }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
-    LineNr { EndOfBuffer }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
+    LineNr { Folded }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     CursorLineNr { fg = c.green }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     MatchParen { fg = c.green, bg = c.black, gui = "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg { fg = c.bg, bg = c.purple }, -- 'showmode' message (e.g., "-- INSERT -- ")
