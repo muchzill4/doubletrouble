@@ -10,10 +10,10 @@ highlight Comment guifg=#6CA9EF guibg=NONE guisp=NONE gui=italic blend=NONE
 highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Constant guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight DiffAdd guifg=#7FC79B guibg=#102317 guisp=NONE gui=NONE blend=NONE
-highlight DiffChange guifg=#E6A64C guibg=#50340B guisp=NONE gui=NONE blend=NONE
-highlight DiffDelete guifg=#E25A6A guibg=#450C13 guisp=NONE gui=NONE blend=NONE
-highlight DiffText guifg=#BB781B guibg=#50340B guisp=NONE gui=NONE blend=NONE
+highlight DiffAdd guifg=NONE guibg=#1E432C guisp=NONE gui=NONE blend=NONE
+highlight DiffChange guifg=NONE guibg=#50340B guisp=NONE gui=NONE blend=NONE
+highlight DiffDelete guifg=NONE guibg=#520F16 guisp=NONE gui=NONE blend=NONE
+highlight DiffText guifg=NONE guibg=#312007 guisp=NONE gui=NONE blend=NONE
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight EndOfBuffer guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE gui=NONE blend=NONE

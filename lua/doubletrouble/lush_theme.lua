@@ -24,10 +24,10 @@ local theme = lush(function()
     CursorColumn { ColorColumn }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorLine { ColorColumn }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory { fg = c.blue }, -- directory names (and other special names in listings)
-    DiffAdd { fg = c.green, bg = c.bg_green }, -- diff mode: Added line |diff.txt|
-    DiffChange { fg = c.yellow, bg = c.bg_yellow }, -- diff mode: Changed line |diff.txt|
-    DiffDelete { fg = c.red, bg = c.bg_red }, -- diff mode: Deleted line |diff.txt|
-    DiffText { fg = c.brown, bg = c.bg_yellow }, -- diff mode: Changed text within a changed line |diff.txt|
+    DiffAdd { bg = c.bg_green }, -- diff mode: Added line |diff.txt|
+    DiffChange { bg = c.bg_yellow }, -- diff mode: Changed line |diff.txt|
+    DiffDelete { bg = c.bg_red }, -- diff mode: Deleted line |diff.txt|
+    DiffText { bg = c.bg_brown }, -- diff mode: Changed text within a changed line |diff.txt|
     diffAdded { DiffAdd },
     diffChanged { DiffChange },
     diffRemoved { DiffDelete },
