@@ -49,7 +49,6 @@ highlight Statement guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight TSConstBuiltin guifg=#7FC79B guibg=NONE guisp=NONE gui=italic blend=NONE
 highlight TSFuncBuiltin guifg=#E6A64C guibg=NONE guisp=NONE gui=italic blend=NONE
-highlight TabLineFill guifg=NONE guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Title guifg=NONE guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE gui=bold blend=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE gui=NONE blend=NONE
@@ -71,6 +70,7 @@ highlight! link StatusLineNC Pmenu
 highlight! link TSConstMacro Constant
 highlight! link TSFuncMacro Function
 highlight! link TabLine StatusLineNC
+highlight! link TabLineFill TabLine
 highlight! link TabLineSel StatusLine
 highlight! link VertSplit EndOfBuffer
 highlight! link WarningMsg ErrorMsg
