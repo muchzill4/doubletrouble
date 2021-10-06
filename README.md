@@ -20,3 +20,9 @@ Retrieve colors with:
 ```lua
 local colors = require("doubletrouble.colors")
 ```
+
+## extras
+
+- [kitty](dist/kitty/doubletrouble.conf)
+- [fish](dist/fish/doubletrouble.fish)
+- [blink](dist/blink/blink.js)
