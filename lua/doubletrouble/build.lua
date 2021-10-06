@@ -95,10 +95,28 @@ set fish_color_valid_path normal --underline
   )
 end
 
+function M.blink()
+  local template = [[
+t.prefs_.set('color-palette-overrides', [
+  '$black', '$red', '$green', '$yellow', '$blue', '$purple', '$cyan', '$white',
+  '$black', '$red', '$green', '$yellow', '$blue', '$purple', '$cyan', '$white',
+]);
+
+cursor = '$green'
+
+t.prefs_.set('cursor-color', cursor + '80');
+t.prefs_.set('foreground-color', '$fg');
+t.prefs_.set('background-color', '$bg');
+]]
+
+  write_file("dist/blink/blink.js", render(template, colors))
+end
+
 function M.all()
   M.vim()
   M.kitty()
   M.fish()
+  M.blink()
 end
 
 return M
