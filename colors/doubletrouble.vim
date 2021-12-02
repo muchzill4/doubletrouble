@@ -30,6 +30,9 @@ highlight Folded guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceRead guifg=NONE guibg=#272A49 guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceText guifg=NONE guibg=#272A49 guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceWrite guifg=NONE guibg=#272A49 guisp=NONE gui=NONE blend=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE gui=bold blend=NONE
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE gui=NONE blend=NONE
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
@@ -58,9 +61,6 @@ highlight! link CursorColumn ColorColumn
 highlight! link CursorLine ColorColumn
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
-highlight! link LspReferenceRead PmenuSel
-highlight! link LspReferenceText PmenuSel
-highlight! link LspReferenceWrite PmenuSel
 highlight! link NonText EndOfBuffer
 highlight! link Pmenu NormalFloat
 highlight! link PmenuThumb PmenuSel

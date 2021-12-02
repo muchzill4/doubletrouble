@@ -130,9 +130,9 @@ local theme = lush(function()
     -- use these groups, or use their own. Consult your LSP client's
     -- documentation.
 
-    LspReferenceText { PmenuSel }, -- used for highlighting "text" references
-    LspReferenceRead { PmenuSel }, -- used for highlighting "read" references
-    LspReferenceWrite { PmenuSel }, -- used for highlighting "write" references
+    LspReferenceText { bg = c.bg_white.da(27) }, -- used for highlighting "text" references
+    LspReferenceRead { bg = c.bg_white.da(27) }, -- used for highlighting "read" references
+    LspReferenceWrite { bg = c.bg_white.da(27) }, -- used for highlighting "write" references
 
     DiagnosticError { fg = c.red }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
     DiagnosticWarn { fg = c.yellow }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
