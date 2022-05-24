@@ -130,9 +130,9 @@ local theme = lush(function()
     -- use these groups, or use their own. Consult your LSP client's
     -- documentation.
 
-    LspReferenceText { bg = c.bg_white.da(27) }, -- used for highlighting "text" references
-    LspReferenceRead { bg = c.bg_white.da(27) }, -- used for highlighting "read" references
-    LspReferenceWrite { bg = c.bg_white.da(27) }, -- used for highlighting "write" references
+    LspReferenceText { bg = c.bg_white.da(10) }, -- used for highlighting "text" references
+    LspReferenceRead { bg = c.bg_white.da(10) }, -- used for highlighting "read" references
+    LspReferenceWrite { bg = c.bg_white.da(10) }, -- used for highlighting "write" references
 
     DiagnosticError { fg = c.red }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
     DiagnosticWarn { fg = c.yellow }, -- Used as the base highlight group. Other LspDiagnostic highlights link to this by default (except Underline)
@@ -144,10 +144,10 @@ local theme = lush(function()
     -- DiagnosticVirtualTextInfo           { }, -- Used for "Information" diagnostic virtual text
     -- DiagnosticVirtualTextHint           { }, -- Used for "Hint" diagnostic virtual text
 
-    DiagnosticUnderlineError { gui = "undercurl" }, -- Used to underline "Error" diagnostics
-    DiagnosticUnderlineWarn { gui = "undercurl" }, -- Used to underline "Warning" diagnostics
-    DiagnosticUnderlineInfo { gui = "undercurl" }, -- Used to underline "Information" diagnostics
-    DiagnosticUnderlineHint { gui = "undercurl" }, -- Used to underline "Hint" diagnostics
+    DiagnosticUnderlineError { gui = "underdot" }, -- Used to underline "Error" diagnostics
+    DiagnosticUnderlineWarn { gui = "underdot" }, -- Used to underline "Warning" diagnostics
+    DiagnosticUnderlineInfo { gui = "underdot" }, -- Used to underline "Information" diagnostics
+    DiagnosticUnderlineHint { gui = "underdot" }, -- Used to underline "Hint" diagnostics
 
     -- DiagnosticFloatingError             { }, -- Used to color "Error" diagnostic messages in diagnostics float
     -- DiagnosticFloatingWarn              { }, -- Used to color "Warning" diagnostic messages in diagnostics float

@@ -13,10 +13,10 @@ highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight DiagnosticError guifg=#E25A6A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight DiagnosticHint guifg=#6CA9EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight DiagnosticInfo guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
-highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
-highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
-highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE gui=undercurl blend=NONE
+highlight DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=NONE gui=underdot blend=NONE
+highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE gui=underdot blend=NONE
+highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE gui=underdot blend=NONE
+highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE gui=underdot blend=NONE
 highlight DiagnosticWarn guifg=#E6A64C guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight DiffAdd guifg=NONE guibg=#1E432C guisp=NONE gui=NONE blend=NONE
 highlight DiffChange guifg=NONE guibg=#50340B guisp=NONE gui=NONE blend=NONE
@@ -30,9 +30,9 @@ highlight Folded guifg=#565B8F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE gui=NONE blend=NONE
-highlight LspReferenceRead guifg=NONE guibg=#272A49 guisp=NONE gui=NONE blend=NONE
-highlight LspReferenceText guifg=NONE guibg=#272A49 guisp=NONE gui=NONE blend=NONE
-highlight LspReferenceWrite guifg=NONE guibg=#272A49 guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceRead guifg=NONE guibg=#30345A guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceText guifg=NONE guibg=#30345A guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceWrite guifg=NONE guibg=#30345A guisp=NONE gui=NONE blend=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE gui=bold blend=NONE
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE gui=NONE blend=NONE
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
