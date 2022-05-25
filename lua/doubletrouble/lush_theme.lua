@@ -50,9 +50,9 @@ local theme = lush(function()
     NormalFloat { bg = c.bg_black }, -- Normal text in floating windows.
     -- NormalNC     { }, -- normal text in non-current windows
     Pmenu { NormalFloat }, -- Popup menu: normal item.
-    PmenuSel { bg = c.bg_white }, -- Popup menu: selected item.
+    PmenuSel { bg = c.bg_purple }, -- Popup menu: selected item.
     PmenuSbar {}, -- Popup menu: scrollbar.
-    PmenuThumb { PmenuSel }, -- Popup menu: Thumb of the scrollbar.
+    PmenuThumb { bg = c.bg_white }, -- Popup menu: Thumb of the scrollbar.
     Question { MoreMsg }, -- |hit-enter| prompt and yes/no questions
     -- QuickFixLine { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     Search { bg = c.bg_yellow }, -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand out.
@@ -61,7 +61,7 @@ local theme = lush(function()
     SpellCap { fg = c.blue, gui = "undercurl" }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal { fg = c.yellow, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare { fg = c.cyan, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
-    StatusLine { PmenuSel }, -- status line of current window
+    StatusLine { bg = c.bg_white }, -- status line of current window
     StatusLineNC { Pmenu }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine { StatusLineNC }, -- tab pages line, not active tab page label
     TabLineFill { TabLine }, -- tab pages line, where there are no labels

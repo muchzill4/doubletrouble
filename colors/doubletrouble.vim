@@ -39,7 +39,8 @@ highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE gui=NONE blend=NONE
 highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE gui=NONE blend=NONE
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight PmenuSel guifg=NONE guibg=#363963 guisp=NONE gui=NONE blend=NONE
+highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE gui=NONE blend=NONE
+highlight PmenuThumb guifg=NONE guibg=#363963 guisp=NONE gui=NONE blend=NONE
 highlight PreProc guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Search guifg=NONE guibg=#50340B guisp=NONE gui=NONE blend=NONE
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE blend=NONE
@@ -49,6 +50,7 @@ highlight SpellCap guifg=#6CA9EF guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight SpellLocal guifg=#E6A64C guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight SpellRare guifg=#D1AF9F guibg=NONE guisp=NONE gui=undercurl blend=NONE
 highlight Statement guifg=#ACAFD2 guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight StatusLine guifg=NONE guibg=#363963 guisp=NONE gui=NONE blend=NONE
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight TSConstBuiltin guifg=#7FC79B guibg=NONE guisp=NONE gui=italic blend=NONE
 highlight TSFuncBuiltin guifg=#E6A64C guibg=NONE guisp=NONE gui=italic blend=NONE
@@ -63,9 +65,7 @@ highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight! link NonText EndOfBuffer
 highlight! link Pmenu NormalFloat
-highlight! link PmenuThumb PmenuSel
 highlight! link Question MoreMsg
-highlight! link StatusLine PmenuSel
 highlight! link StatusLineNC Pmenu
 highlight! link TSConstMacro Constant
 highlight! link TSFuncMacro Function
