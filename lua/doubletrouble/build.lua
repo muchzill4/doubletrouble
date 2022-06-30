@@ -112,11 +112,22 @@ t.prefs_.set('background-color', '$bg');
   write_file("dist/blink/blink.js", render(template, colors))
 end
 
+function M.slack()
+  -- no idea what second color is for, so making it obnoxious red,
+  -- let's see if it pops up
+  local template = [[
+$bg,#ff0000,$bg_white,$fg,$bg_black,$fg,$green,$red,$bg,$fg
+]]
+
+  write_file("dist/slack/slack.txt", render(template, colors))
+end
+
 function M.all()
   M.vim()
   M.kitty()
   M.fish()
   M.blink()
+  M.slack()
 end
 
 return M
