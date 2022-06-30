@@ -24,12 +24,11 @@ endif
 let g:colors_name="doubletrouble"
 set background=dark
 ]]
+  local lushwright = require "shipwright.transform.lush"
+  local theme = require "doubletrouble.lush_theme"
+  local vimscript = table.concat(lushwright.to_vimscript(theme), "\n")
 
-  local theme = lush.compile(require "doubletrouble.lush_theme")
-  table.sort(theme)
-  local vim_highlights = table.concat(theme, "\n")
-
-  write_file("colors/doubletrouble.vim", preamble .. vim_highlights)
+  write_file("colors/doubletrouble.vim", preamble .. vimscript)
 end
 
 function M.kitty()

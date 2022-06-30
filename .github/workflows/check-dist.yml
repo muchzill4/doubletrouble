@@ -14,6 +14,10 @@ jobs:
         with:
           repository: rktjmp/lush.nvim
           path: lush.nvim
+      - uses: actions/checkout@v2
+        with:
+          repository: rktjmp/shipwright.nvim
+          path: shipwright.nvim
       - name: Setup
         run: |
           sudo apt-get update
