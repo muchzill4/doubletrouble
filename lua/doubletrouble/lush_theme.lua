@@ -144,10 +144,10 @@ local theme = lush(function()
     -- DiagnosticVirtualTextInfo           { }, -- Used for "Information" diagnostic virtual text
     -- DiagnosticVirtualTextHint           { }, -- Used for "Hint" diagnostic virtual text
 
-    DiagnosticUnderlineError { gui = "underdot" }, -- Used to underline "Error" diagnostics
-    DiagnosticUnderlineWarn { gui = "underdot" }, -- Used to underline "Warning" diagnostics
-    DiagnosticUnderlineInfo { gui = "underdot" }, -- Used to underline "Information" diagnostics
-    DiagnosticUnderlineHint { gui = "underdot" }, -- Used to underline "Hint" diagnostics
+    DiagnosticUnderlineError { gui = "undercurl" }, -- Used to underline "Error" diagnostics
+    DiagnosticUnderlineWarn { gui = "undercurl" }, -- Used to underline "Warning" diagnostics
+    DiagnosticUnderlineInfo { gui = "undercurl" }, -- Used to underline "Information" diagnostics
+    DiagnosticUnderlineHint { gui = "undercurl" }, -- Used to underline "Hint" diagnostics
 
     -- DiagnosticFloatingError             { }, -- Used to color "Error" diagnostic messages in diagnostics float
     -- DiagnosticFloatingWarn              { }, -- Used to color "Warning" diagnostic messages in diagnostics float
