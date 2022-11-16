@@ -4,7 +4,8 @@ local c = require "doubletrouble.colors"
 -- LSP/Linters mistakenly show `undefined global` errors in the spec, they may
 -- support an annotation like the following. Consult your server documentation.
 ---@diagnostic disable: undefined-global
-local theme = lush(function()
+local theme = lush(function(injected_functions)
+  local sym = injected_functions.sym
   return {
     -- The following are all the Neovim default highlight groups from the docs
     -- as of 0.5.0-nightly-446, to aid your theme creation. Your themes should
@@ -173,15 +174,15 @@ local theme = lush(function()
     -- TSConstructor        { };    -- For constructor calls and definitions: ` { }` in Lua, and Java constructors.
     -- TSConditional        { };    -- For keywords related to conditionnals.
     -- TSConstant           { };    -- For constants
-    TSConstBuiltin { Constant, gui = "italic" }, -- For constant that are built in the language: `nil` in Lua.
-    TSConstMacro { Constant }, -- For constants that are defined by macros: `NULL` in C.
+    sym "@constant.builtin" { Constant, gui = "italic" }, -- For constant that are built in the language: `nil` in Lua.
+    sym "@constant.macro" { Constant }, -- For constants that are defined by macros: `NULL` in C.
     -- TSError              { };    -- For syntax/parser errors.
     -- TSException          { };    -- For exception related keywords.
     -- TSField              { };    -- For fields.
     -- TSFloat              { };    -- For floats.
     -- TSFunction           { };    -- For function (calls and definitions).
-    TSFuncBuiltin { Function, gui = "italic" }, -- For builtin functions: `table.insert` in Lua.
-    TSFuncMacro { Function }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
+    sym "@function.builtin" { Function, gui = "italic" }, -- For builtin functions: `table.insert` in Lua.
+    sym "@function.macro" { Function }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     -- TSInclude            { };    -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
     -- TSKeyword            { };    -- For keywords that don't fall in previous categories.
     -- TSKeywordFunction    { };    -- For keywords used to define a fuction.
@@ -204,7 +205,7 @@ local theme = lush(function()
     -- TSSymbol             { };    -- For identifiers referring to symbols or atoms.
     -- TSType               { };    -- For types.
     -- TSTypeBuiltin        { };    -- For builtin types.
-    -- TSVariable           { };    -- Any variable name that does not have another highlight.
+    sym "@variable" { Normal }, -- Any variable name that does not have another highlight.
     -- TSVariableBuiltin    { };    -- Variable names that are defined by the languages, like `this` or `self`.
 
     -- TSTag                { };    -- Tags like html tag names.

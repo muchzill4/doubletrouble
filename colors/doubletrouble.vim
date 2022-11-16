@@ -5,6 +5,7 @@ endif
 let g:colors_name="doubletrouble"
 set background=dark
 highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
+highlight! link @variable Normal
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight ColorColumn guifg=NONE guibg=#212236 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorColumn ColorColumn
@@ -12,7 +13,7 @@ highlight! link CursorLine ColorColumn
 highlight Comment guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Constant guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link TSConstMacro Constant
+highlight! link @constant.macro Constant
 highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticError guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticHint guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -40,7 +41,7 @@ highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link TSFuncMacro Function
+highlight! link @function.macro Function
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceRead guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
@@ -70,11 +71,11 @@ highlight StatusLine guifg=NONE guibg=#363963 guisp=NONE blend=NONE gui=NONE
 highlight! link TabLineSel StatusLine
 highlight! link TabLine StatusLineNC
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight TSConstBuiltin guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight TSFuncBuiltin guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight! link TabLineFill TabLine
 highlight Title guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=NONE
+highlight @constant.builtin guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=italic
+highlight @function.builtin guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=italic
