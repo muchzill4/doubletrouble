@@ -41,7 +41,7 @@ inactive_border_color $bg_black
 
 active_tab_foreground $fg
 active_tab_background $bg_white
-active_tab_font_style normal
+active_tab_font_style bold
 inactive_tab_foreground $fg
 inactive_tab_background $bg_black
 

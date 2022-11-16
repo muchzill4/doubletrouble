@@ -55,7 +55,7 @@ highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight! link Pmenu NormalFloat
 highlight! link StatusLineNC Pmenu
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=NONE
+highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#363963 guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -67,7 +67,7 @@ highlight SpellCap guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight SpellLocal guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight SpellRare guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight Statement guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight StatusLine guifg=NONE guibg=#363963 guisp=NONE blend=NONE gui=NONE
+highlight StatusLine guifg=NONE guibg=#363963 guisp=NONE blend=NONE gui=bold
 highlight! link TabLineSel StatusLine
 highlight! link TabLine StatusLineNC
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -76,6 +76,6 @@ highlight Title guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=NONE
+highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight @constant.builtin guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight @function.builtin guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=italic
