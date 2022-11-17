@@ -48,7 +48,7 @@ highlight LspReferenceRead guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NO
 highlight LspReferenceText guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE blend=NONE gui=bold
-highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE blend=NONE gui=NONE
+highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
 highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
