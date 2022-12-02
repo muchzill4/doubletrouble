@@ -273,6 +273,15 @@ local theme = lush(function(injected_functions)
     diffAdded { DiffAdd },
     diffChanged { DiffChange },
     diffRemoved { DiffDelete },
+
+    -- nvim-telescope/telescope.nvim
+    TelescopeMatching { Function },
+    TelescopeCounter { LineNr },
+
+    -- lewis6991/gitsigns.nvim
+    GitSignsAdd { fg = c.bg_green.li(10) },
+    GitSignsChange { fg = c.bg_yellow.li(10) },
+    GitSignsDelete { fg = c.bg_red.li(15) },
   }
 end)
 
