@@ -5,7 +5,7 @@
 ## install
 
 ```text
-"muchzill4/doubletrouble"
+use { "muchzill4/doubletrouble" }
 ```
 
 ## use
@@ -20,6 +20,13 @@ Retrieve colors with:
 ```lua
 local colors = require("doubletrouble.colors")
 ```
+
+## supports
+
+- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 
 ## extras
 
