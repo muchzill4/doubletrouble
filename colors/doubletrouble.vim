@@ -41,12 +41,14 @@ highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight! link CmpItemAbbrMatch Function
 highlight! link TelescopeMatching Function
 highlight! link @function.macro Function
 highlight GitSignsAdd guifg=#2A603F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsChange guifg=#744B11 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=#861825 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
 highlight! link TelescopeCounter LineNr
 highlight LspReferenceRead guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
@@ -81,6 +83,7 @@ highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TabLineFill TabLine
 highlight Title guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
