@@ -41,14 +41,9 @@ highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link TelescopeMatching Function
 highlight! link @function.macro Function
-highlight GitSignsAdd guifg=#2A603F guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsChange guifg=#744B11 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsDelete guifg=#861825 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
-highlight! link TelescopeCounter LineNr
 highlight LspReferenceRead guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceText guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
