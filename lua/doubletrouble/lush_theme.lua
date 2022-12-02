@@ -217,6 +217,13 @@ local theme = lush(function(injected_functions)
     -- TSTitle              { };    -- Text that is part of a title.
     -- TSLiteral            { };    -- Literal text.
     -- TSURI                { };    -- Any URI like a link or email.
+
+    TelescopeMatching { Function },
+    TelescopeCounter { LineNr },
+
+    GitSignsAdd { fg = c.bg_green.li(10) },
+    GitSignsChange { fg = c.bg_yellow.li(10) },
+    GitSignsDelete { fg = c.bg_red.li(15) },
   }
 end)
 
