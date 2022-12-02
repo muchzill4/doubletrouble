@@ -12,7 +12,7 @@ use { "muchzill4/doubletrouble" }
 
 ```lua
 vim.o.termguicolors = true
-vim.api.nvim_command "colorscheme doubletrouble"
+vim.cmd "colorscheme doubletrouble"
 ```
 
 Retrieve colors with:
