@@ -23,13 +23,13 @@ highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE blend=NONE gu
 highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight DiagnosticWarn guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight DiffAdd guifg=NONE guibg=#1E432C guisp=NONE blend=NONE gui=NONE
+highlight DiffAdd guifg=NONE guibg=#1C3129 guisp=NONE blend=NONE gui=NONE
 highlight! link diffAdded DiffAdd
-highlight DiffChange guifg=NONE guibg=#50340B guisp=NONE blend=NONE gui=NONE
+highlight DiffChange guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=NONE
 highlight! link diffChanged DiffChange
-highlight DiffDelete guifg=NONE guibg=#520F16 guisp=NONE blend=NONE gui=NONE
+highlight DiffDelete guifg=NONE guibg=#471A26 guisp=NONE blend=NONE gui=NONE
 highlight! link diffRemoved DiffDelete
-highlight DiffText guifg=NONE guibg=#312007 guisp=NONE blend=NONE gui=NONE
+highlight DiffText guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#363963 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NonText EndOfBuffer
@@ -44,9 +44,9 @@ highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link CmpItemAbbrMatch Function
 highlight! link TelescopeMatching Function
 highlight! link @function.macro Function
-highlight GitSignsAdd guifg=#2A603F guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsChange guifg=#744B11 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsDelete guifg=#861825 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsChange guifg=#563C20 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsDelete guifg=#742A3E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
@@ -68,7 +68,7 @@ highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#363963 guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Search guifg=NONE guibg=#50340B guisp=NONE blend=NONE gui=NONE
+highlight Search guifg=NONE guibg=#342413 guisp=NONE blend=NONE gui=NONE
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Special guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight SpellBad guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=undercurl

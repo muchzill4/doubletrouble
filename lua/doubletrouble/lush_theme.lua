@@ -70,7 +70,7 @@ local theme = lush(function(injected_functions)
     CursorLine { ColorColumn }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory { fg = c.blue }, -- Directory names (and other special names in listings)
     DiffAdd { bg = c.bg_green }, -- Diff mode: Added line |diff.txt|
-    DiffChange { bg = c.bg_yellow }, -- Diff mode: Changed line |diff.txt|
+    DiffChange { bg = c.bg_brown }, -- Diff mode: Changed line |diff.txt|
     DiffDelete { bg = c.bg_red }, -- Diff mode: Deleted line |diff.txt|
     DiffText { bg = c.bg_brown }, -- Diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer { fg = c.bg_white }, -- Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
