@@ -7,6 +7,9 @@ set background=dark
 highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
 highlight! link @variable Normal
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
+highlight CmpItemAbbr guifg=#CDCFE4 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight CmpItemAbbrDeprecated guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight CmpItemKind guifg=#ACAFD2 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ColorColumn guifg=NONE guibg=#212236 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorColumn ColorColumn
 highlight! link CursorLine ColorColumn
@@ -42,6 +45,7 @@ highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link CmpItemAbbrMatch Function
+highlight! link CmpItemAbbrMatchFuzzy Function
 highlight! link TelescopeMatching Function
 highlight! link @function.macro Function
 highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE

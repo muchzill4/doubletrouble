@@ -284,7 +284,11 @@ local theme = lush(function(injected_functions)
     GitSignsDelete { fg = c.bg_red.li(15) },
 
     -- hrsh7th/nvim-cmp
+    CmpItemAbbr { fg = c.fg },
+    CmpItemAbbrDeprecated { fg = c.blue },
     CmpItemAbbrMatch { Function },
+    CmpItemAbbrMatchFuzzy { Function },
+    CmpItemKind { fg = c.white },
 
     -- nvim-treesitter/nvim-treesitter-context
     TreesitterContextLineNumber { Identifier },
