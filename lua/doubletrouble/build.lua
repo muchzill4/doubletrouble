@@ -8,7 +8,7 @@ local function write_file(path, text)
 end
 
 local function render(template, colors)
-  return string.gsub(template, "%$([%w_]+)", function(s)
+  return string.gsub(template, "%$([%l_]+)", function(s)
     return colors[s].hex
   end)
 end
@@ -121,12 +121,30 @@ $bg,#ff0000,$bg_white,$fg,$bg_black,$fg,$green,$red,$bg,$fg
   write_file("dist/slack/slack.txt", render(template, colors))
 end
 
+function M.fzf()
+  local theme = {
+    "query:regular",
+    "hl:$yellow",
+    "hl+:bold:$yellow",
+    "prompt:$purple",
+    "bg+:$bg_purple",
+    "gutter:-1", -- -1 is background in fzf lingo
+    "info:$black",
+    "separator:$bg_black",
+    "scrollbar:$black",
+  }
+  local template = "--color " .. table.concat(theme, ",")
+  print(template)
+  write_file("dist/fzf/fzf.txt", render(template, colors))
+end
+
 function M.all()
   M.vim()
   M.kitty()
   M.fish()
   M.blink()
   M.slack()
+  M.fzf()
 end
 
 return M
