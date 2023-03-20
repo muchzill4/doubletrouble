@@ -11,7 +11,7 @@ local c = {
   blue = hsl(212, 80, 68),
   purple = hsl(299, 49, 77),
   cyan = hsl(20, 35, 72),
-  white = hsl(235, 30, 75),
+  white = hsl(235, 30, 70),
 }
 
 c.brown = c.yellow.da(30)
