@@ -21,10 +21,10 @@ highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticError guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticHint guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticInfo guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
-highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
-highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
-highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
+highlight DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=#E25A6A blend=NONE gui=undercurl
+highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=#6CA9EF blend=NONE gui=undercurl
+highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=#9C9FC9 blend=NONE gui=undercurl
+highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=#E6A64C blend=NONE gui=undercurl
 highlight DiagnosticWarn guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiffAdd guifg=NONE guibg=#1C3129 guisp=NONE blend=NONE gui=NONE
 highlight! link diffAdded DiffAdd
