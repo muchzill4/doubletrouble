@@ -47,6 +47,7 @@ highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link CmpItemAbbrMatch Function
 highlight! link CmpItemAbbrMatchFuzzy Function
 highlight! link TelescopeMatching Function
+highlight! link @constructor Function
 highlight! link @function.macro Function
 highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsChange guifg=#563C20 guibg=NONE guisp=NONE blend=NONE gui=NONE
