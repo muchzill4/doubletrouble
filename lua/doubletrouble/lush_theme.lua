@@ -72,7 +72,7 @@ local theme = lush(function(injected_functions)
     DiffAdd { bg = c.bg_green }, -- Diff mode: Added line |diff.txt|
     DiffChange { bg = c.bg_brown }, -- Diff mode: Changed line |diff.txt|
     DiffDelete { bg = c.bg_red }, -- Diff mode: Deleted line |diff.txt|
-    DiffText { bg = c.bg_brown }, -- Diff mode: Changed text within a changed line |diff.txt|
+    DiffText { bg = c.bg_brown, gui = "bold" }, -- Diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer { fg = c.bg_white }, -- Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
     -- TermCursor   { }, -- Cursor in a focused terminal
     -- TermCursorNC { }, -- Cursor in an unfocused terminal
@@ -168,7 +168,7 @@ local theme = lush(function(injected_functions)
     Underlined { gui = "underline" }, -- Text that stands out, HTML links
     -- Ignore         { }, -- Left blank, hidden |hl-Ignore| (NOTE: May be invisible here in template)
     Error { bg = c.red }, -- Any erroneous construct
-    Todo { Comment, gui = "bold" }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
+    Todo { Comment, gui = "underline" }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
     -- These groups are for the native LSP client and diagnostic system. Some
     -- other LSP clients may use these groups, or use their own. Consult your

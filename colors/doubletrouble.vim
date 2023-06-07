@@ -32,7 +32,7 @@ highlight DiffChange guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=NONE
 highlight! link diffChanged DiffChange
 highlight DiffDelete guifg=NONE guibg=#471A26 guisp=NONE blend=NONE gui=NONE
 highlight! link diffRemoved DiffDelete
-highlight DiffText guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=NONE
+highlight DiffText guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=bold
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#32365D guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NonText EndOfBuffer
@@ -87,7 +87,7 @@ highlight! link TabLine StatusLineNC
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TabLineFill TabLine
 highlight Title guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=bold
-highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
