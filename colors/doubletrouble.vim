@@ -40,6 +40,7 @@ highlight! link VertSplit EndOfBuffer
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#1D1D30 guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight! link WarningMsg ErrorMsg
+highlight FloatBorder guifg=#9C9FC9 guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
@@ -49,6 +50,7 @@ highlight! link CmpItemAbbrMatchFuzzy Function
 highlight! link TelescopeMatching Function
 highlight! link @constructor Function
 highlight! link @function.macro Function
+highlight FzfLuaBorder guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsChange guifg=#563C20 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=#742A3E guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -87,6 +89,7 @@ highlight! link TabLine StatusLineNC
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TabLineFill TabLine
 highlight Title guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight! link FzfLuaTitle Title
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE

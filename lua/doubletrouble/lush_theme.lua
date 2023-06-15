@@ -93,6 +93,7 @@ local theme = lush(function(injected_functions)
     NonText { EndOfBuffer }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
     Normal { bg = c.bg, fg = c.fg }, -- Normal text
     NormalFloat { bg = c.bg_black }, -- Normal text in floating windows.
+    FloatBorder { fg = c.white, bg = c.bg_black },
     -- NormalNC     { }, -- normal text in non-current windows
     Pmenu { NormalFloat }, -- Popup menu: Normal item.
     PmenuSel { bg = c.bg_purple, gui = "bold" }, -- Popup menu: Selected item.
@@ -293,6 +294,10 @@ local theme = lush(function(injected_functions)
     -- nvim-treesitter/nvim-treesitter-context
     TreesitterContextLineNumber { Identifier },
     TreesitterContext { bg = c.bg_black.da(5) },
+
+    -- ibhagwan/fzf-lua
+    FzfLuaTitle { Title },
+    FzfLuaBorder { fg = c.white },
   }
 end)
 
