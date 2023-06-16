@@ -20,7 +20,7 @@ c.bg_black = c.black.da(55)
 c.bg_white = c.white.da(60)
 c.bg_red = c.red.mix(c.bg, 30).da(60)
 c.bg_green = c.green.mix(c.bg, 30).da(70)
-c.bg_yellow = c.yellow.mix(c.bg, 30).da(70)
+c.bg_yellow = c.yellow.mix(c.bg, 30).da(55)
 c.bg_brown = c.brown.mix(c.bg, 30).da(40)
 c.bg_purple = c.purple.da(70)
 

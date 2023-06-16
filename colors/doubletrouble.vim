@@ -52,7 +52,7 @@ highlight! link @constructor Function
 highlight! link @function.macro Function
 highlight FzfLuaBorder guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsChange guifg=#563C20 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsChange guifg=#6C4B28 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=#742A3E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
@@ -75,7 +75,7 @@ highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#32365D guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Search guifg=NONE guibg=#342413 guisp=NONE blend=NONE gui=NONE
+highlight Search guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Special guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight SpellBad guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=undercurl
