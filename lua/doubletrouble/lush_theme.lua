@@ -296,8 +296,17 @@ local theme = lush(function(injected_functions)
     TreesitterContext { bg = c.bg_black.da(5) },
 
     -- ibhagwan/fzf-lua
-    FzfLuaTitle { Title },
     FzfLuaBorder { fg = c.white },
+    FzfLuaTitle { Title },
+    FzfLuaHeaderBind { fg = c.cyan },
+    FzfLuaHeaderText { Normal },
+    FzfLuaBufName { fg = c.blue },
+    FzfLuaBufNr { FzfLuaHeaderBind },
+    FzfLuaBufLineNr { LineNr },
+    FzfLuaBufFlagCur { fg = c.black },
+    FzfLuaBufFlagAlt { FzfLuaBufFlagCur },
+    FzfLuaTabTitle { Title },
+    FzfLuaTabMarker { FzfLuaHeaderBind },
   }
 end)
 

@@ -5,6 +5,7 @@ endif
 let g:colors_name="doubletrouble"
 set background=dark
 highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
+highlight! link FzfLuaHeaderText Normal
 highlight! link @variable Normal
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight CmpItemAbbr guifg=#CDCFE4 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -51,12 +52,19 @@ highlight! link TelescopeMatching Function
 highlight! link @constructor Function
 highlight! link @function.macro Function
 highlight FzfLuaBorder guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FzfLuaBufFlagCur guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight! link FzfLuaBufFlagAlt FzfLuaBufFlagCur
+highlight FzfLuaBufName guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FzfLuaHeaderBind guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight! link FzfLuaBufNr FzfLuaHeaderBind
+highlight! link FzfLuaTabMarker FzfLuaHeaderBind
 highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsChange guifg=#6C4B28 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=#742A3E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
+highlight! link FzfLuaBufLineNr LineNr
 highlight! link TelescopeCounter LineNr
 highlight LspReferenceRead guifg=NONE guibg=#2D3053 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceText guifg=NONE guibg=#2D3053 guisp=NONE blend=NONE gui=NONE
@@ -89,6 +97,7 @@ highlight! link TabLine StatusLineNC
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TabLineFill TabLine
 highlight Title guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight! link FzfLuaTabTitle Title
 highlight! link FzfLuaTitle Title
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
