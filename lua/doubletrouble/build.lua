@@ -45,6 +45,10 @@ active_tab_font_style bold
 inactive_tab_foreground $fg
 inactive_tab_background $bg_black
 
+mark1_background $purple
+mark2_background $cyan
+mark3_background $blue
+
 foreground $fg
 background $bg
 
