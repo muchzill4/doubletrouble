@@ -55,6 +55,7 @@ highlight FzfLuaBorder guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight FzfLuaBufFlagCur guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufFlagAlt FzfLuaBufFlagCur
 highlight FzfLuaBufName guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FzfLuaCursor guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=bold
 highlight FzfLuaHeaderBind guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufNr FzfLuaHeaderBind
 highlight! link FzfLuaTabMarker FzfLuaHeaderBind
@@ -84,6 +85,7 @@ highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#32365D guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Search guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
+highlight! link FzfLuaCursorLine Search
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Special guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight SpellBad guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=undercurl
