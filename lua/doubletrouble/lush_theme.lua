@@ -207,6 +207,14 @@ local theme = lush(function(injected_functions)
     -- DiagnosticSignInfo         { } , -- Used for "Info" signs in sign column.
     -- DiagnosticSignHint         { } , -- Used for "Hint" signs in sign column.
 
+    User1 { StatusLine, fg = c.red },
+    User2 { StatusLine, fg = c.green },
+    User3 { StatusLine, fg = c.yellow },
+    User4 { StatusLine, fg = c.blue },
+    User5 { StatusLine, fg = c.purple },
+    User6 { StatusLine, fg = c.cyan },
+    User7 { StatusLine, fg = c.white },
+
     -- Tree-Sitter syntax groups.
     --
     -- See :h treesitter-highlight-groups, some groups may not be listed,

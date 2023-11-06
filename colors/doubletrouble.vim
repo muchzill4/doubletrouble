@@ -105,6 +105,13 @@ highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+highlight User1 guifg=#E25A6A guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User2 guifg=#7FC79B guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User3 guifg=#E6A64C guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User4 guifg=#6CA9EF guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User5 guifg=#E0A8E1 guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User6 guifg=#D1AF9F guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User7 guifg=#9C9FC9 guibg=#32365D guisp=NONE blend=NONE gui=bold
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight @constant.builtin guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight @function.builtin guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=italic
