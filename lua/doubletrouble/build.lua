@@ -90,6 +90,7 @@ set fish_color_param normal
 set fish_color_quote $cyan
 set fish_color_search_match --background=$bg_yellow
 set fish_color_valid_path normal --underline
+set fish_pager_color_progress $black
 ]]
 
   write_file(
