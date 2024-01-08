@@ -78,6 +78,7 @@ local theme = lush(function(injected_functions)
     -- TermCursorNC { }, -- Cursor in an unfocused terminal
     ErrorMsg { fg = c.bg, bg = c.red }, -- Error messages on the command line
     VertSplit { EndOfBuffer }, -- Column separating vertically split windows
+    WinSeparator { EndOfBuffer }, -- Fix ^^ column separator on latest nvim
     Folded { fg = c.black }, -- Line used for closed folds
     FoldColumn { Folded }, -- 'foldcolumn'
     SignColumn {}, -- Column where |signs| are displayed

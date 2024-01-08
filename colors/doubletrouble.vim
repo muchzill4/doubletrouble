@@ -38,6 +38,7 @@ highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#32365D guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NonText EndOfBuffer
 highlight! link VertSplit EndOfBuffer
+highlight! link WinSeparator EndOfBuffer
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#1D1D30 guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight! link WarningMsg ErrorMsg
