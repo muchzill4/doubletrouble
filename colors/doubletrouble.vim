@@ -85,6 +85,7 @@ highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#32365D guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight QuickFixLine guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
 highlight Search guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaCursorLine Search
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
