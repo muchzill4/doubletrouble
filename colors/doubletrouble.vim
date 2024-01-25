@@ -35,7 +35,7 @@ highlight DiffDelete guifg=NONE guibg=#471A26 guisp=NONE blend=NONE gui=NONE
 highlight! link diffRemoved DiffDelete
 highlight DiffText guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=bold
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight EndOfBuffer guifg=#32365D guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight EndOfBuffer guifg=#393D6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NonText EndOfBuffer
 highlight! link VertSplit EndOfBuffer
 highlight! link WinSeparator EndOfBuffer
@@ -68,9 +68,9 @@ highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufLineNr LineNr
 highlight! link TelescopeCounter LineNr
-highlight LspReferenceRead guifg=NONE guibg=#2D3053 guisp=NONE blend=NONE gui=NONE
-highlight LspReferenceText guifg=NONE guibg=#2D3053 guisp=NONE blend=NONE gui=NONE
-highlight LspReferenceWrite guifg=NONE guibg=#2D3053 guisp=NONE blend=NONE gui=NONE
+highlight LspReferenceRead guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
+highlight LspReferenceText guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
+highlight LspReferenceWrite guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE blend=NONE gui=bold
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -83,7 +83,7 @@ highlight! link StatusLineNC Pmenu
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight! link WildMenu PmenuSel
-highlight PmenuThumb guifg=NONE guibg=#32365D guisp=NONE blend=NONE gui=NONE
+highlight PmenuThumb guifg=NONE guibg=#393D6A guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight QuickFixLine guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
 highlight Search guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
@@ -95,7 +95,7 @@ highlight SpellCap guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight SpellLocal guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight SpellRare guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=undercurl
 highlight Statement guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight StatusLine guifg=NONE guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight StatusLine guifg=NONE guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight! link TabLineSel StatusLine
 highlight! link TabLine StatusLineNC
 highlight String guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -107,13 +107,13 @@ highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-highlight User1 guifg=#E25A6A guibg=#32365D guisp=NONE blend=NONE gui=bold
-highlight User2 guifg=#7FC79B guibg=#32365D guisp=NONE blend=NONE gui=bold
-highlight User3 guifg=#E6A64C guibg=#32365D guisp=NONE blend=NONE gui=bold
-highlight User4 guifg=#6CA9EF guibg=#32365D guisp=NONE blend=NONE gui=bold
-highlight User5 guifg=#E0A8E1 guibg=#32365D guisp=NONE blend=NONE gui=bold
-highlight User6 guifg=#D1AF9F guibg=#32365D guisp=NONE blend=NONE gui=bold
-highlight User7 guifg=#9C9FC9 guibg=#32365D guisp=NONE blend=NONE gui=bold
+highlight User1 guifg=#E25A6A guibg=#393D6A guisp=NONE blend=NONE gui=bold
+highlight User2 guifg=#7FC79B guibg=#393D6A guisp=NONE blend=NONE gui=bold
+highlight User3 guifg=#E6A64C guibg=#393D6A guisp=NONE blend=NONE gui=bold
+highlight User4 guifg=#6CA9EF guibg=#393D6A guisp=NONE blend=NONE gui=bold
+highlight User5 guifg=#E0A8E1 guibg=#393D6A guisp=NONE blend=NONE gui=bold
+highlight User6 guifg=#D1AF9F guibg=#393D6A guisp=NONE blend=NONE gui=bold
+highlight User7 guifg=#9C9FC9 guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
 highlight @constant.builtin guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight @function.builtin guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=italic

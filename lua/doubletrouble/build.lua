@@ -36,7 +36,7 @@ function M.kitty()
 cursor $green
 cursor_text_color $bg
 
-active_border_color $white
+active_border_color $bg_white
 inactive_border_color $bg_black
 
 active_tab_foreground $fg
