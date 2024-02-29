@@ -72,7 +72,7 @@ local theme = lush(function(injected_functions)
     DiffAdd { bg = c.bg_green }, -- Diff mode: Added line |diff.txt|
     DiffChange { bg = c.bg_brown }, -- Diff mode: Changed line |diff.txt|
     DiffDelete { bg = c.bg_red }, -- Diff mode: Deleted line |diff.txt|
-    DiffText { bg = c.bg_brown, gui = "bold" }, -- Diff mode: Changed text within a changed line |diff.txt|
+    DiffText { bg = c.bg_brown.da(30) }, -- Diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer { fg = c.bg_white }, -- Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
     -- TermCursor   { }, -- Cursor in a focused terminal
     -- TermCursorNC { }, -- Cursor in an unfocused terminal
@@ -289,9 +289,9 @@ local theme = lush(function(injected_functions)
     TelescopeCounter { LineNr },
 
     -- lewis6991/gitsigns.nvim
-    GitSignsAdd { fg = c.bg_green.li(10) },
-    GitSignsChange { fg = c.bg_yellow.li(10) },
-    GitSignsDelete { fg = c.bg_red.li(15) },
+    GitSignsAdd { fg = c.bg_green.li(30) },
+    GitSignsChange { fg = c.bg_yellow.li(30) },
+    GitSignsDelete { fg = c.bg_red.li(35) },
 
     -- hrsh7th/nvim-cmp
     CmpItemAbbr { fg = c.fg },

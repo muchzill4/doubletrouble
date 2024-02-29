@@ -29,11 +29,11 @@ highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=#E6A64C blend=NONE
 highlight DiagnosticWarn guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiffAdd guifg=NONE guibg=#1C3129 guisp=NONE blend=NONE gui=NONE
 highlight! link diffAdded DiffAdd
-highlight DiffChange guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=NONE
+highlight DiffChange guifg=NONE guibg=#3F2C17 guisp=NONE blend=NONE gui=NONE
 highlight! link diffChanged DiffChange
 highlight DiffDelete guifg=NONE guibg=#471A26 guisp=NONE blend=NONE gui=NONE
 highlight! link diffRemoved DiffDelete
-highlight DiffText guifg=NONE guibg=#4A341C guisp=NONE blend=NONE gui=bold
+highlight DiffText guifg=NONE guibg=#2D1F11 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#393D6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NonText EndOfBuffer
@@ -60,9 +60,9 @@ highlight FzfLuaCursor guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=bol
 highlight FzfLuaHeaderBind guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufNr FzfLuaHeaderBind
 highlight! link FzfLuaTabMarker FzfLuaHeaderBind
-highlight GitSignsAdd guifg=#2D4E42 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsChange guifg=#6C4B28 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsDelete guifg=#742A3E guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsAdd guifg=#4C8571 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsChange guifg=#A8753E guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight GitSignsDelete guifg=#B0405E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
