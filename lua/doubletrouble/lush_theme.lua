@@ -83,6 +83,7 @@ local theme = lush(function(injected_functions)
     FoldColumn { Folded }, -- 'foldcolumn'
     SignColumn {}, -- Column where |signs| are displayed
     IncSearch { fg = c.bg, bg = c.yellow }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+    CurSearch { IncSearch },
     -- Substitute   { }, -- |:substitute| replacement text highlighting
     LineNr { Folded }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     CursorLineNr { fg = c.green }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.

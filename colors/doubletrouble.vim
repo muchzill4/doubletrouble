@@ -66,6 +66,7 @@ highlight GitSignsDelete guifg=#B0405E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
+highlight! link CurSearch IncSearch
 highlight! link FzfLuaBufLineNr LineNr
 highlight! link TelescopeCounter LineNr
 highlight LspReferenceRead guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
