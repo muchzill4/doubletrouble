@@ -69,10 +69,13 @@ local theme = lush(function(injected_functions)
     CursorColumn { ColorColumn }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     CursorLine { ColorColumn }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory { fg = c.blue }, -- Directory names (and other special names in listings)
+    Added { fg = c.green },
+    Changed { fg = c.brown },
+    Removed { fg = c.red },
     DiffAdd { bg = c.bg_green }, -- Diff mode: Added line |diff.txt|
     DiffChange { bg = c.bg_brown }, -- Diff mode: Changed line |diff.txt|
-    DiffDelete { bg = c.bg_red }, -- Diff mode: Deleted line |diff.txt|
-    DiffText { bg = c.bg_brown.da(30) }, -- Diff mode: Changed text within a changed line |diff.txt|
+    DiffText { bg = c.bg_brown.li(15) }, -- Diff mode: Changed text within a changed line |diff.txt|
+    DiffDelete { bg = c.bg_red, fg = c.red }, -- Diff mode: Deleted line |diff.txt|
     EndOfBuffer { fg = c.bg_white }, -- Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
     -- TermCursor   { }, -- Cursor in a focused terminal
     -- TermCursorNC { }, -- Cursor in an unfocused terminal
@@ -279,11 +282,6 @@ local theme = lush(function(injected_functions)
     -- sym"@preproc"           { }, -- PreProc
     -- sym"@debug"             { }, -- Debug
     -- sym"@tag"               { }, -- Tag
-
-    -- highlights in "git commit -v"
-    diffAdded { DiffAdd },
-    diffChanged { DiffChange },
-    diffRemoved { DiffDelete },
 
     -- nvim-telescope/telescope.nvim
     TelescopeMatching { Function },

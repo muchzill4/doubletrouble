@@ -7,6 +7,8 @@ set background=dark
 highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaHeaderText Normal
 highlight! link @variable Normal
+highlight Added guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight Changed guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight CmpItemAbbr guifg=#CDCFE4 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemAbbrDeprecated guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -28,12 +30,9 @@ highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=#9C9FC9 blend=NONE
 highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=#E6A64C blend=NONE gui=undercurl
 highlight DiagnosticWarn guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiffAdd guifg=NONE guibg=#1C3129 guisp=NONE blend=NONE gui=NONE
-highlight! link diffAdded DiffAdd
 highlight DiffChange guifg=NONE guibg=#3F2C17 guisp=NONE blend=NONE gui=NONE
-highlight! link diffChanged DiffChange
-highlight DiffDelete guifg=NONE guibg=#471A26 guisp=NONE blend=NONE gui=NONE
-highlight! link diffRemoved DiffDelete
-highlight DiffText guifg=NONE guibg=#2D1F11 guisp=NONE blend=NONE gui=NONE
+highlight DiffDelete guifg=#E25A6A guibg=#471A26 guisp=NONE blend=NONE gui=NONE
+highlight DiffText guifg=NONE guibg=#6C4B28 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#393D6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NonText EndOfBuffer
@@ -87,6 +86,7 @@ highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#393D6A guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight QuickFixLine guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
+highlight Removed guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Search guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaCursorLine Search
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
