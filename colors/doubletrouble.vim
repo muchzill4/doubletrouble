@@ -35,7 +35,6 @@ highlight DiffDelete guifg=#E25A6A guibg=#471A26 guisp=NONE blend=NONE gui=NONE
 highlight DiffText guifg=NONE guibg=#6C4B28 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#393D6A guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link NonText EndOfBuffer
 highlight! link VertSplit EndOfBuffer
 highlight! link WinSeparator EndOfBuffer
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
@@ -77,6 +76,7 @@ highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
 highlight MsgArea guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight NonText guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight! link Pmenu NormalFloat
 highlight! link StatusLineNC Pmenu
