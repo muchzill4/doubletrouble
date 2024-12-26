@@ -317,6 +317,17 @@ local theme = lush(function(injected_functions)
     FzfLuaTabMarker { FzfLuaHeaderBind },
     FzfLuaCursorLine { Search },
     FzfLuaCursor { IncSearch, gui = "bold" },
+
+    -- echasnovski/mini.icons
+    MiniIconsAzure { fg = c.blue },
+    MiniIconsBlue { fg = c.blue },
+    MiniIconsCyan { fg = c.cyan },
+    MiniIconsGreen { fg = c.green },
+    MiniIconsGrey { fg = c.black },
+    MiniIconsOrange { fg = c.brown },
+    MiniIconsPurple { fg = c.purple },
+    MiniIconsRed { fg = c.red },
+    MiniIconsYellow { fg = c.yellow },
   }
 end)
 

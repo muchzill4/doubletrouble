@@ -71,6 +71,15 @@ highlight LspReferenceRead guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NO
 highlight LspReferenceText guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE blend=NONE gui=bold
+highlight MiniIconsAzure guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsBlue guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsCyan guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsGreen guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsGrey guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsOrange guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsPurple guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsRed guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight MiniIconsYellow guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
