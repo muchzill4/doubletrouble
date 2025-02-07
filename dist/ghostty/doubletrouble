@@ -1,0 +1,22 @@
+cursor-color = #7FC79B
+cursor-text = #1D1D30
+
+foreground = #CDCFE4
+background = #1D1D30
+
+palette = 0=#565B8F
+palette = 1=#E25A6A
+palette = 2=#7FC79B
+palette = 3=#E6A64C
+palette = 4=#6CA9EF
+palette = 5=#E0A8E1
+palette = 6=#D1AF9F
+palette = 7=#9C9FC9
+palette = 8=#565B8F
+palette = 9=#E25A6A
+palette = 10=#7FC79B
+palette = 11=#E6A64C
+palette = 12=#6CA9EF
+palette = 13=#E0A8E1
+palette = 14=#D1AF9F
+palette = 15=#9C9FC9
