@@ -172,6 +172,19 @@ palette = 15=$white
   write_file("dist/ghostty/doubletrouble", render(template, colors))
 end
 
+function M.tmux()
+  local template = [[
+set -g mode-style fg='$bg',bg='$fg'
+set -g message-style fg='$bg',bg='$yellow'
+set -g status-style bg='$bg_black',fg='$fg'
+set -g pane-active-border-style fg='$black'
+set -g pane-border-style fg='$bg_black'
+set -g window-status-current-style bg='$bg_white'
+]]
+
+  write_file("dist/tmux/doubletrouble.conf", render(template, colors))
+end
+
 function M.all()
   M.vim()
   M.kitty()
@@ -180,6 +193,7 @@ function M.all()
   M.slack()
   M.fzf()
   M.ghostty()
+  M.tmux()
 end
 
 return M
