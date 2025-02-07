@@ -180,6 +180,7 @@ set -g status-style bg='$bg_black',fg='$fg'
 set -g pane-active-border-style fg='$black'
 set -g pane-border-style fg='$bg_black'
 set -g window-status-current-style bg='$bg_white'
+set -g window-status-activity-style bg='#{window-status-style}'
 ]]
 
   write_file("dist/tmux/doubletrouble.conf", render(template, colors))
