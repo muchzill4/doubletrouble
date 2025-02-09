@@ -85,7 +85,7 @@ highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
 highlight MsgArea guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NonText guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight NonText guifg=#454973 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight! link Pmenu NormalFloat
 highlight! link StatusLineNC Pmenu
