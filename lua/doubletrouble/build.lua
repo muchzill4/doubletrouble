@@ -137,6 +137,7 @@ function M.fzf()
     "info:$black",
     "separator:$bg_black",
     "scrollbar:$black",
+    "border:$black",
   }
   local template = "--color " .. table.concat(theme, ",")
   print(template)
