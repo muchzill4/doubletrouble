@@ -40,7 +40,7 @@ highlight! link WinSeparator EndOfBuffer
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#1D1D30 guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight! link WarningMsg ErrorMsg
-highlight FloatBorder guifg=#9C9FC9 guibg=#262840 guisp=NONE blend=NONE gui=NONE
+highlight FloatBorder guifg=#565B8F guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
 highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
@@ -50,7 +50,7 @@ highlight! link CmpItemAbbrMatchFuzzy Function
 highlight! link TelescopeMatching Function
 highlight! link @constructor Function
 highlight! link @function.macro Function
-highlight FzfLuaBorder guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FzfLuaBorder guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight FzfLuaBufFlagCur guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufFlagAlt FzfLuaBufFlagCur
 highlight FzfLuaBufName guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -86,8 +86,8 @@ highlight! link Question MoreMsg
 highlight MsgArea guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NonText guifg=#454973 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NormalFloat guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
-highlight! link Pmenu NormalFloat
+highlight NormalFloat guifg=NONE guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
+highlight Pmenu guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight! link StatusLineNC Pmenu
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold

@@ -97,10 +97,10 @@ local theme = lush(function(injected_functions)
     MoreMsg { fg = c.green }, -- |more-prompt|
     NonText { fg = c.black.da(20) }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
     Normal { bg = c.bg, fg = c.fg }, -- Normal text
-    NormalFloat { bg = c.bg_black }, -- Normal text in floating windows.
-    FloatBorder { fg = c.white, bg = c.bg_black },
+    NormalFloat { bg = c.bg }, -- Normal text in floating windows.
+    FloatBorder { fg = c.black, bg = c.bg },
     -- NormalNC     { }, -- normal text in non-current windows
-    Pmenu { NormalFloat }, -- Popup menu: Normal item.
+    Pmenu { bg = c.bg_black }, -- Popup menu: Normal item.
     PmenuSel { bg = c.bg_purple, gui = "bold" }, -- Popup menu: Selected item.
     PmenuSbar {}, -- Popup menu: Scrollbar.
     PmenuThumb { bg = c.bg_white }, -- Popup menu: Thumb of the scrollbar.
@@ -304,7 +304,7 @@ local theme = lush(function(injected_functions)
     TreesitterContext { bg = c.bg_black.da(5) },
 
     -- ibhagwan/fzf-lua
-    FzfLuaBorder { fg = c.white },
+    FzfLuaBorder { fg = c.black },
     FzfLuaTitle { Title },
     FzfLuaHeaderBind { fg = c.cyan },
     FzfLuaHeaderText { Normal },
