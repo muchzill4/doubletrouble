@@ -104,4 +104,4 @@ highlight User4 guifg=#6CA9EF guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight User5 guifg=#E0A8E1 guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight User6 guifg=#D1AF9F guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight User7 guifg=#9C9FC9 guibg=#393D6A guisp=NONE blend=NONE gui=bold
-highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
+highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=NONE
