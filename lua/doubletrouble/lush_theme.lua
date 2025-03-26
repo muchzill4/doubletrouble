@@ -246,8 +246,8 @@ local theme = lush(function(injected_functions)
     -- sym"@comment"           { }, -- Comment
     -- sym"@punctuation"       { }, -- Delimiter
     -- sym"@constant"          { }, -- Constant
-    sym "@constant.builtin" { Constant, gui = "italic" }, -- Special
-    sym "@constant.macro" { Constant }, -- Define
+    -- sym"@constant.builtin"  { }, -- Special
+    -- sym"@constant.macro"    { }, -- Define
     -- sym"@define"            { }, -- Define
     -- sym"@macro"             { }, -- Macro
     -- sym"@string"            { }, -- String
@@ -259,20 +259,20 @@ local theme = lush(function(injected_functions)
     -- sym"@boolean"           { }, -- Boolean
     -- sym"@float"             { }, -- Float
     -- sym"@function"          { }, -- Function
-    sym "@function.builtin" { Function, gui = "italic" }, -- Special
-    sym "@function.macro" { Function }, -- Macro
+    -- sym"@function.builtin"  { }, -- Special
+    -- sym"@function.macro"    { }, -- Macro
     -- sym"@parameter"         { }, -- Identifier
     -- sym"@method"            { }, -- Function
     -- sym"@field"             { }, -- Identifier
     -- sym"@property"          { }, -- Identifier
-    sym "@constructor" { Function }, -- Special
+    -- sym"@constructor"       { }, -- Special
     -- sym"@conditional"       { }, -- Conditional
     -- sym"@repeat"            { }, -- Repeat
     -- sym"@label"             { }, -- Label
     -- sym"@operator"          { }, -- Operator
     -- sym"@keyword"           { }, -- Keyword
     -- sym"@exception"         { }, -- Exception
-    sym "@variable" { Normal }, -- Identifier
+    -- sym"@variable"          { }, -- Identifier
     -- sym"@type"              { }, -- Type
     -- sym"@type.definition"   { }, -- Typedef
     -- sym"@storageclass"      { }, -- StorageClass
@@ -283,21 +283,10 @@ local theme = lush(function(injected_functions)
     -- sym"@debug"             { }, -- Debug
     -- sym"@tag"               { }, -- Tag
 
-    -- nvim-telescope/telescope.nvim
-    TelescopeMatching { Function },
-    TelescopeCounter { LineNr },
-
     -- lewis6991/gitsigns.nvim
     GitSignsAdd { fg = c.bg_green.li(30) },
     GitSignsChange { fg = c.bg_yellow.li(30) },
     GitSignsDelete { fg = c.bg_red.li(35) },
-
-    -- hrsh7th/nvim-cmp
-    CmpItemAbbr { fg = c.fg },
-    CmpItemAbbrDeprecated { fg = c.blue },
-    CmpItemAbbrMatch { Function },
-    CmpItemAbbrMatchFuzzy { Function },
-    CmpItemKind { fg = c.white },
 
     -- nvim-treesitter/nvim-treesitter-context
     TreesitterContextLineNumber { Identifier },
@@ -317,17 +306,6 @@ local theme = lush(function(injected_functions)
     FzfLuaTabMarker { FzfLuaHeaderBind },
     FzfLuaCursorLine { Search },
     FzfLuaCursor { IncSearch, gui = "bold" },
-
-    -- echasnovski/mini.icons
-    MiniIconsAzure { fg = c.blue },
-    MiniIconsBlue { fg = c.blue },
-    MiniIconsCyan { fg = c.cyan },
-    MiniIconsGreen { fg = c.green },
-    MiniIconsGrey { fg = c.black },
-    MiniIconsOrange { fg = c.brown },
-    MiniIconsPurple { fg = c.purple },
-    MiniIconsRed { fg = c.red },
-    MiniIconsYellow { fg = c.yellow },
   }
 end)
 

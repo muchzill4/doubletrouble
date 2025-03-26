@@ -23,10 +23,9 @@ local colors = require("doubletrouble.colors")
 
 ## supports
 
-- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
-- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
+- [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua)
 
 ## extras
 

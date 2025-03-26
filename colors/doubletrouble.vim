@@ -6,20 +6,15 @@ let g:colors_name="doubletrouble"
 set background=dark
 highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaHeaderText Normal
-highlight! link @variable Normal
 highlight Added guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Changed guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight CmpItemAbbr guifg=#CDCFE4 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight CmpItemAbbrDeprecated guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight CmpItemKind guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ColorColumn guifg=NONE guibg=#212236 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorColumn ColorColumn
 highlight! link CursorLine ColorColumn
 highlight Comment guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Constant guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link @constant.macro Constant
 highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticError guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticHint guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -45,11 +40,6 @@ highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link CmpItemAbbrMatch Function
-highlight! link CmpItemAbbrMatchFuzzy Function
-highlight! link TelescopeMatching Function
-highlight! link @constructor Function
-highlight! link @function.macro Function
 highlight FzfLuaBorder guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight FzfLuaBufFlagCur guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufFlagAlt FzfLuaBufFlagCur
@@ -66,20 +56,10 @@ highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
 highlight! link CurSearch IncSearch
 highlight! link FzfLuaBufLineNr LineNr
-highlight! link TelescopeCounter LineNr
 highlight LspReferenceRead guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceText guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE blend=NONE gui=bold
-highlight MiniIconsAzure guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsBlue guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsCyan guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsGreen guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsGrey guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsOrange guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsPurple guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsRed guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight MiniIconsYellow guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
@@ -125,5 +105,3 @@ highlight User5 guifg=#E0A8E1 guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight User6 guifg=#D1AF9F guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight User7 guifg=#9C9FC9 guibg=#393D6A guisp=NONE blend=NONE gui=bold
 highlight Visual guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
-highlight @constant.builtin guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight @function.builtin guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=italic
