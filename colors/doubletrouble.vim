@@ -93,7 +93,7 @@ highlight! link TabLineFill TabLine
 highlight Title guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link FzfLuaTabTitle Title
 highlight! link FzfLuaTitle Title
-highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=underline
+highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
