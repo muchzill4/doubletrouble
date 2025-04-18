@@ -1,4 +1,3 @@
-local lush = require "lush"
 local colors = require "doubletrouble.colors"
 
 local function write_file(path, text)
