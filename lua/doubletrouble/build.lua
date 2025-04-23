@@ -146,7 +146,7 @@ end
 function M.ghostty()
   local template = [[
 cursor-color = $green
-cursor-text = $bg
+cursor-text = #000000
 
 foreground = $fg
 background = $bg
