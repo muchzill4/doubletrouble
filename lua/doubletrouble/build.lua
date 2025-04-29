@@ -139,7 +139,6 @@ function M.fzf()
     "border:$black",
   }
   local template = "--color " .. table.concat(theme, ",")
-  print(template)
   write_file("dist/fzf/fzf.txt", render(template, colors))
 end
 
