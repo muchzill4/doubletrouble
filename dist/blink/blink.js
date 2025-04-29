@@ -7,4 +7,4 @@ cursor = '#7FC79B'
 
 t.prefs_.set('cursor-color', cursor + '80');
 t.prefs_.set('foreground-color', '#CDCFE4');
-t.prefs_.set('background-color', '#1D1D30');
+t.prefs_.set('background-color', '#191929');

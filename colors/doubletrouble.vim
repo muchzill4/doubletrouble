@@ -4,7 +4,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="doubletrouble"
 set background=dark
-highlight Normal guifg=#CDCFE4 guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
+highlight Normal guifg=#CDCFE4 guibg=#191929 guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaHeaderText Normal
 highlight Added guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Changed guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -33,9 +33,9 @@ highlight EndOfBuffer guifg=#393D6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link VertSplit EndOfBuffer
 highlight! link WinSeparator EndOfBuffer
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
-highlight ErrorMsg guifg=#1D1D30 guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
+highlight ErrorMsg guifg=#191929 guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight! link WarningMsg ErrorMsg
-highlight FloatBorder guifg=#565B8F guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
+highlight FloatBorder guifg=#565B8F guibg=#191929 guisp=NONE blend=NONE gui=NONE
 highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
@@ -44,7 +44,7 @@ highlight FzfLuaBorder guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight FzfLuaBufFlagCur guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufFlagAlt FzfLuaBufFlagCur
 highlight FzfLuaBufName guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight FzfLuaCursor guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=bold
+highlight FzfLuaCursor guifg=#191929 guibg=#E6A64C guisp=NONE blend=NONE gui=bold
 highlight FzfLuaHeaderBind guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufNr FzfLuaHeaderBind
 highlight! link FzfLuaTabMarker FzfLuaHeaderBind
@@ -53,20 +53,20 @@ highlight GitSignsChange guifg=#A8753E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight GitSignsDelete guifg=#B0405E guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
-highlight IncSearch guifg=#1D1D30 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
+highlight IncSearch guifg=#191929 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
 highlight! link CurSearch IncSearch
 highlight! link FzfLuaBufLineNr LineNr
 highlight LspReferenceRead guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceText guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#343760 guisp=NONE blend=NONE gui=NONE
 highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE blend=NONE gui=bold
-highlight ModeMsg guifg=#1D1D30 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
+highlight ModeMsg guifg=#191929 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
 highlight MsgArea guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NonText guifg=#454973 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NormalFloat guifg=NONE guibg=#1D1D30 guisp=NONE blend=NONE gui=NONE
+highlight NormalFloat guifg=NONE guibg=#191929 guisp=NONE blend=NONE gui=NONE
 highlight Pmenu guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight! link StatusLineNC Pmenu
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE

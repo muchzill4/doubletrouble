@@ -2,7 +2,7 @@ local lush = require "lush"
 local hsl = lush.hsl
 
 local c = {
-  bg = hsl(240, 25, 15),
+  bg = hsl(240, 25, 13),
   fg = hsl(235, 30, 85),
   black = hsl(235, 25, 45),
   red = hsl(353, 70, 62),
