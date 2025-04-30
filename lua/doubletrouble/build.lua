@@ -175,6 +175,7 @@ function M.tmux()
   local template = [[
 set -g mode-style fg='$bg',bg='$fg'
 set -g message-style fg='$bg',bg='$yellow'
+set -g menu-selected-style fg='$bg',bg='$yellow'
 set -g status-style bg='$bg_black',fg='$fg'
 set -g pane-active-border-style fg='$black'
 set -g pane-border-style fg='$bg_black'
