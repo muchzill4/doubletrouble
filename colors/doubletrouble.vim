@@ -10,11 +10,12 @@ highlight Added guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Changed guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight ColorColumn guifg=NONE guibg=#212236 guisp=NONE blend=NONE gui=NONE
-highlight! link CursorColumn ColorColumn
-highlight! link CursorLine ColorColumn
+highlight! link TreesitterContext ColorColumn
 highlight Comment guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Constant guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight CursorColumn guifg=NONE guibg=#151523 guisp=NONE blend=NONE gui=NONE
+highlight! link CursorLine CursorColumn
 highlight CursorLineNr guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticError guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticHint guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -94,7 +95,6 @@ highlight Title guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link FzfLuaTabTitle Title
 highlight! link FzfLuaTitle Title
 highlight Todo guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=bold,italic
-highlight TreesitterContext guifg=NONE guibg=#24263D guisp=NONE blend=NONE gui=NONE
 highlight Type guifg=#E0A8E1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight User1 guifg=#E25A6A guibg=#393D6A guisp=NONE blend=NONE gui=bold

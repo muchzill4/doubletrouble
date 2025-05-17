@@ -66,8 +66,8 @@ local theme = lush(function(injected_functions)
     -- Cursor       { }, -- Character under the cursor
     -- lCursor      { }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
     -- CursorIM     { }, -- Like Cursor, but used when in IME mode |CursorIM|
-    CursorColumn { ColorColumn }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
-    CursorLine { ColorColumn }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
+    CursorColumn { bg = c.bg.da(15) }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
+    CursorLine { CursorColumn }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory { fg = c.blue }, -- Directory names (and other special names in listings)
     Added { fg = c.green },
     Changed { fg = c.brown },
@@ -290,7 +290,7 @@ local theme = lush(function(injected_functions)
 
     -- nvim-treesitter/nvim-treesitter-context
     TreesitterContextLineNumber { Identifier },
-    TreesitterContext { bg = c.bg_black.da(5) },
+    TreesitterContext { ColorColumn },
 
     -- ibhagwan/fzf-lua
     FzfLuaBorder { fg = c.black },
