@@ -83,11 +83,13 @@ function M.fish()
   local template = [[
 set fish_color_command $green
 set fish_color_error $red
+set fish_color_host $white
 set fish_color_normal $fg
 set fish_color_operator $white
 set fish_color_param normal
 set fish_color_quote $cyan
 set fish_color_search_match $bg --background=$yellow
+set fish_color_user $white
 set fish_color_valid_path normal --underline
 set fish_pager_color_progress $black
 ]]
