@@ -82,6 +82,7 @@ end
 function M.fish()
   local template = [[
 set fish_color_command $green
+set fish_color_cwd $blue
 set fish_color_error $red
 set fish_color_host $white
 set fish_color_normal $fg
