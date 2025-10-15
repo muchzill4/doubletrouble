@@ -132,7 +132,7 @@ function M.fzf()
     "hl+:bold:$yellow",
     "prompt:$purple",
     "bg+:$bg_purple",
-    "gutter:-1", -- -1 is background in fzf lingo
+    "gutter:$bg",
     "info:$black",
     "separator:$bg_black",
     "scrollbar:$black",
