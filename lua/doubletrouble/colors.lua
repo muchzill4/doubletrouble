@@ -16,7 +16,7 @@ local c = {
 
 c.brown = c.yellow.da(30)
 
-c.bg_black = c.black.da(55)
+c.bg_black = c.black.da(65)
 c.bg_white = c.white.da(55)
 c.bg_red = c.red.mix(c.bg, 30).da(60)
 c.bg_green = c.green.mix(c.bg, 30).da(70)

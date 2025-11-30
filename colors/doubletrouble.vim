@@ -9,7 +9,7 @@ highlight! link FzfLuaHeaderText Normal
 highlight Added guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Changed guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight ColorColumn guifg=NONE guibg=#212236 guisp=NONE blend=NONE gui=NONE
+highlight ColorColumn guifg=NONE guibg=#1B1C2D guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContext ColorColumn
 highlight Comment guifg=#6CA9EF guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -68,7 +68,7 @@ highlight MsgArea guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NonText guifg=#454973 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NormalFloat guifg=NONE guibg=#191929 guisp=NONE blend=NONE gui=NONE
-highlight Pmenu guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
+highlight Pmenu guifg=NONE guibg=#1F2033 guisp=NONE blend=NONE gui=NONE
 highlight! link StatusLineNC Pmenu
 highlight PmenuSbar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight PmenuSel guifg=NONE guibg=#561E57 guisp=NONE blend=NONE gui=bold
