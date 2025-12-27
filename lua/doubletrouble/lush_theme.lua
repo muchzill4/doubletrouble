@@ -111,7 +111,7 @@ local theme = lush(function(injected_functions)
     SpellBad { fg = c.red, gui = "undercurl" }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
     SpellCap { fg = c.blue, gui = "undercurl" }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal { fg = c.yellow, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
-    SpellRare { fg = c.cyan, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
+    SpellRare { fg = c.dune, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
     StatusLine { bg = c.bg_white, gui = "bold" }, -- Status line of current window
     StatusLineNC { Pmenu }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine { StatusLineNC }, -- Tab pages line, not active tab page label
@@ -136,7 +136,7 @@ local theme = lush(function(injected_functions)
     Comment { fg = c.blue, gui = "italic" }, -- Any comment
 
     Constant { fg = c.green }, -- (*) Any constant
-    String { fg = c.cyan }, --   A string constant: "this is a string"
+    String { fg = c.dune }, --   A string constant: "this is a string"
     Character { String, gui = "italic" }, --   A character constant: 'c', '\n'
     -- Number         { }, --   A number constant: 234, 0xff
     -- Boolean        { }, --   A boolean constant: TRUE, false
@@ -217,7 +217,7 @@ local theme = lush(function(injected_functions)
     User3 { StatusLine, fg = c.yellow },
     User4 { StatusLine, fg = c.blue },
     User5 { StatusLine, fg = c.purple },
-    User6 { StatusLine, fg = c.cyan },
+    User6 { StatusLine, fg = c.dune },
     User7 { StatusLine, fg = c.white },
 
     -- Tree-Sitter syntax groups.
@@ -295,7 +295,7 @@ local theme = lush(function(injected_functions)
     -- ibhagwan/fzf-lua
     FzfLuaBorder { fg = c.black },
     FzfLuaTitle { Title },
-    FzfLuaHeaderBind { fg = c.cyan },
+    FzfLuaHeaderBind { fg = c.dune },
     FzfLuaHeaderText { Normal },
     FzfLuaBufName { fg = c.blue },
     FzfLuaBufNr { FzfLuaHeaderBind },

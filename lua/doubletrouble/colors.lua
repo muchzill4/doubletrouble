@@ -10,7 +10,7 @@ local c = {
   yellow = hsl(35, 75, 60),
   blue = hsl(212, 80, 68),
   purple = hsl(299, 49, 77),
-  cyan = hsl(20, 35, 72),
+  dune = hsl(20, 35, 72),
   white = hsl(235, 30, 70),
 }
 

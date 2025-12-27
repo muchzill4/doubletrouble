@@ -45,7 +45,7 @@ inactive_tab_foreground $fg
 inactive_tab_background $bg_black
 
 mark1_background $purple
-mark2_background $cyan
+mark2_background $dune
 mark3_background $blue
 
 foreground $fg
@@ -69,8 +69,8 @@ color12 $blue
 color5  $purple
 color13 $purple
 
-color6  $cyan
-color14 $cyan
+color6  $dune
+color14 $dune
 
 color7  $white
 color15 $white
@@ -85,7 +85,7 @@ set fish_color_command $green
 set fish_color_cwd $blue
 set fish_color_error $red
 set fish_color_param $brown
-set fish_color_quote $cyan
+set fish_color_quote $dune
 set fish_color_search_match $bg --background=$yellow
 set fish_color_operator $white
 set fish_color_end $white
@@ -101,8 +101,8 @@ end
 function M.blink()
   local template = [[
 t.prefs_.set('color-palette-overrides', [
-  '$black', '$red', '$green', '$yellow', '$blue', '$purple', '$cyan', '$white',
-  '$black', '$red', '$green', '$yellow', '$blue', '$purple', '$cyan', '$white',
+  '$black', '$red', '$green', '$yellow', '$blue', '$purple', '$dune', '$white',
+  '$black', '$red', '$green', '$yellow', '$blue', '$purple', '$dune', '$white',
 ]);
 
 cursor = '$green'
@@ -156,7 +156,7 @@ palette = 2=$green
 palette = 3=$yellow
 palette = 4=$blue
 palette = 5=$purple
-palette = 6=$cyan
+palette = 6=$dune
 palette = 7=$white
 palette = 8=$black
 palette = 9=$red
@@ -164,7 +164,7 @@ palette = 10=$green
 palette = 11=$yellow
 palette = 12=$blue
 palette = 13=$purple
-palette = 14=$cyan
+palette = 14=$dune
 palette = 15=$white
 ]]
 
