@@ -78,7 +78,6 @@ highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight QuickFixLine guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
 highlight Removed guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Search guifg=NONE guibg=#4E361D guisp=NONE blend=NONE gui=NONE
-highlight! link FzfLuaCursorLine Search
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Special guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight SpellBad guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=undercurl

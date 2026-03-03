@@ -304,7 +304,6 @@ local theme = lush(function(injected_functions)
     FzfLuaBufFlagAlt { FzfLuaBufFlagCur },
     FzfLuaTabTitle { Title },
     FzfLuaTabMarker { FzfLuaHeaderBind },
-    FzfLuaCursorLine { Search },
     FzfLuaCursor { IncSearch, gui = "bold" },
   }
 end)
