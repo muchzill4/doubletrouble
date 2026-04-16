@@ -37,6 +37,7 @@ cursor_text_color $bg
 
 active_border_color $bg_white
 inactive_border_color $bg_black
+bell_border_color $yellow
 
 active_tab_foreground $fg
 active_tab_background $bg_white
