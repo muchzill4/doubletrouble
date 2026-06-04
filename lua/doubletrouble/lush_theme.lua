@@ -283,11 +283,6 @@ local theme = lush(function(injected_functions)
     -- sym"@debug"             { }, -- Debug
     -- sym"@tag"               { }, -- Tag
 
-    -- lewis6991/gitsigns.nvim
-    GitSignsAdd { fg = c.bg_green.li(30) },
-    GitSignsChange { fg = c.bg_yellow.li(30) },
-    GitSignsDelete { fg = c.bg_red.li(35) },
-
     -- nvim-treesitter/nvim-treesitter-context
     TreesitterContextLineNumber { Identifier },
     TreesitterContext { ColorColumn },

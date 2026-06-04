@@ -49,9 +49,6 @@ highlight FzfLuaCursor guifg=#191929 guibg=#E6A64C guisp=NONE blend=NONE gui=bol
 highlight FzfLuaHeaderBind guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufNr FzfLuaHeaderBind
 highlight! link FzfLuaTabMarker FzfLuaHeaderBind
-highlight GitSignsAdd guifg=#568F6C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsChange guifg=#9B794B guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight GitSignsDelete guifg=#AF4B57 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Identifier guifg=#BB781B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContextLineNumber Identifier
 highlight IncSearch guifg=#191929 guibg=#E6A64C guisp=NONE blend=NONE gui=NONE
