@@ -12,7 +12,7 @@ highlight Character guifg=#D1AF9F guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight ColorColumn guifg=NONE guibg=#212236 guisp=NONE blend=NONE gui=NONE
 highlight! link TreesitterContext ColorColumn
 highlight Comment guifg=#74AAE7 guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight Conceal guifg=#4D5180 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight Conceal guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Constant guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CursorColumn guifg=NONE guibg=#151523 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLine CursorColumn
@@ -36,13 +36,13 @@ highlight! link WinSeparator EndOfBuffer
 highlight Error guifg=NONE guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight ErrorMsg guifg=#191929 guibg=#E25A6A guisp=NONE blend=NONE gui=NONE
 highlight! link WarningMsg ErrorMsg
-highlight FloatBorder guifg=#4D5180 guibg=#191929 guisp=NONE blend=NONE gui=NONE
-highlight Folded guifg=#4D5180 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FloatBorder guifg=#565B8F guibg=#191929 guisp=NONE blend=NONE gui=NONE
+highlight Folded guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FoldColumn Folded
 highlight! link LineNr Folded
 highlight Function guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight FzfLuaBorder guifg=#4D5180 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight FzfLuaBufFlagCur guifg=#4D5180 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FzfLuaBorder guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight FzfLuaBufFlagCur guifg=#565B8F guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link FzfLuaBufFlagAlt FzfLuaBufFlagCur
 highlight FzfLuaBufName guifg=#74AAE7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight FzfLuaCursor guifg=#191929 guibg=#E6A64C guisp=NONE blend=NONE gui=bold
@@ -57,13 +57,13 @@ highlight! link FzfLuaBufLineNr LineNr
 highlight LspReferenceRead guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceText guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#30345A guisp=NONE blend=NONE gui=NONE
-highlight MatchParen guifg=#7FC79B guibg=#4D5180 guisp=NONE blend=NONE gui=bold
+highlight MatchParen guifg=#7FC79B guibg=#565B8F guisp=NONE blend=NONE gui=bold
 highlight ModeMsg guifg=#191929 guibg=#E0A8E1 guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7FC79B guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Question MoreMsg
 highlight MsgArea guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NonText guifg=#3D4166 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight NonText guifg=#454973 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NormalFloat guifg=NONE guibg=#191929 guisp=NONE blend=NONE gui=NONE
 highlight Pmenu guifg=NONE guibg=#262840 guisp=NONE blend=NONE gui=NONE
 highlight! link StatusLineNC Pmenu
