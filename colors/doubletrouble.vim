@@ -25,10 +25,10 @@ highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=#74AAE7 blend=NONE
 highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=#9C9FC9 blend=NONE gui=undercurl
 highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=#E6A64C blend=NONE gui=undercurl
 highlight DiagnosticWarn guifg=#E6A64C guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight DiffAdd guifg=NONE guibg=#2A4635 guisp=NONE blend=NONE gui=NONE
-highlight DiffChange guifg=NONE guibg=#3C3020 guisp=NONE blend=NONE gui=NONE
-highlight DiffDelete guifg=#E25A6A guibg=#4F2227 guisp=NONE blend=NONE gui=NONE
-highlight DiffText guifg=NONE guibg=#635036 guisp=NONE blend=NONE gui=NONE
+highlight DiffAdd guifg=NONE guibg=#242E28 guisp=NONE blend=NONE gui=NONE
+highlight DiffChange guifg=NONE guibg=#2B2722 guisp=NONE blend=NONE gui=NONE
+highlight DiffDelete guifg=#E25A6A guibg=#2F2324 guisp=NONE blend=NONE gui=NONE
+highlight DiffText guifg=NONE guibg=#50493F guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#74AAE7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight EndOfBuffer guifg=#363963 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link VertSplit EndOfBuffer
@@ -72,9 +72,9 @@ highlight PmenuSel guifg=NONE guibg=#4E224F guisp=NONE blend=NONE gui=bold
 highlight! link WildMenu PmenuSel
 highlight PmenuThumb guifg=NONE guibg=#363963 guisp=NONE blend=NONE gui=NONE
 highlight PreProc guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight QuickFixLine guifg=NONE guibg=#4C3B24 guisp=NONE blend=NONE gui=NONE
+highlight QuickFixLine guifg=NONE guibg=#2F2A23 guisp=NONE blend=NONE gui=NONE
 highlight Removed guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Search guifg=NONE guibg=#4C3B24 guisp=NONE blend=NONE gui=NONE
+highlight Search guifg=NONE guibg=#2F2A23 guisp=NONE blend=NONE gui=NONE
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Special guifg=#9C9FC9 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight SpellBad guifg=#E25A6A guibg=NONE guisp=NONE blend=NONE gui=undercurl

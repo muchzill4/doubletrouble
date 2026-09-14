@@ -18,10 +18,10 @@ c.brown = c.yellow.da(30)
 
 c.bg_black = hsl(235, 25, 20)
 c.bg_white = hsl(235, 30, 30)
-c.bg_red = hsl(353, 40, 22)
-c.bg_green = hsl(143, 25, 22)
-c.bg_yellow = hsl(35, 35, 22)
-c.bg_brown = hsl(35, 30, 18)
+c.bg_red = hsl(353, 15, 16)
+c.bg_green = hsl(143, 12, 16)
+c.bg_yellow = hsl(35, 14, 16)
+c.bg_brown = hsl(35, 12, 15)
 c.bg_purple = hsl(299, 40, 22)
 
 return c

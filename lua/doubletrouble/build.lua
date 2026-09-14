@@ -175,7 +175,7 @@ end
 function M.tmux()
   local template = [[
 set -g mode-style fg='$bg',bg='$fg'
-set -g message-style fg='$bg',bg='$yellow'
+set -g message-style fg='$bg',bg='$yellow',fill='$yellow'
 set -g copy-mode-match-style fg='$bg',bg='$bg_yellow'
 set -g copy-mode-current-match-style fg='$bg',bg='$yellow'
 set -g copy-mode-mark-style fg='$bg',bg='$red'
